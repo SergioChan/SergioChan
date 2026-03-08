@@ -13,12 +13,12 @@ I build and ship practical fixes across open-source projects.
 > Auto-updated every hour.
 
 <!-- STATS:START -->
-- 📦 Total PRs opened: **326**
-- ✅ PRs merged: **213**
-- 🟢 PRs open now: **68**
-- 🎯 Acceptance rate (merged / closed): **82.6%**
-- 🧭 Repositories contributed via PRs: **85**
-- 🕒 Last updated: **2026-03-08 18:36:05.044 UTC**
+- 📦 Total PRs opened: **155**
+- ✅ PRs merged: **43**
+- 🟢 PRs open now: **67**
+- 🎯 Acceptance rate (merged / closed): **48.9%**
+- 🧭 Repositories contributed via PRs: **79**
+- 🕒 Last updated: **2026-03-08 18:36:38.314 UTC**
 <!-- STATS:END -->
 
 ## Current focus
