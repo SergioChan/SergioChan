@@ -10,14 +10,14 @@
 <!-- BADGES:START -->
 <p>
   <a href="https://github.com/SergioChan?tab=followers"><img src="https://img.shields.io/badge/Followers-1.1K-181717?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/SergioChan?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-133-181717?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/SergioChan?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-134-181717?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/SergioChan?tab=repositories"><img src="https://img.shields.io/badge/Stars%20Earned-2.6K-f5b301?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Repos%20via%20PRs-85-2f81f7?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Repos%20via%20PRs-86-2f81f7?style=for-the-badge&logo=github" /></a>
 </p>
 <p>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Merge%20Rate-48.9%25-2ea043?style=for-the-badge&logo=git" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Merge%20Rate-47.8%25-2ea043?style=for-the-badge&logo=git" /></a>
   <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/PRs%20Merged-43-238636?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Open%20PRs-67-f85149?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Open%20PRs-68-f85149?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/SergioChan"><img src="https://komarev.com/ghpvc/?username=SergioChan&style=for-the-badge&color=0e75b6" /></a>
 </p>
 <!-- BADGES:END -->
@@ -62,12 +62,12 @@
 ## Currently Contributing
 
 <!-- CONTRIBUTING:START -->
+- [`pydantic/pydantic-ai`](https://github.com/pydantic/pydantic-ai): Recent PR: `Fix LLMJudge.evaluate return type annotation to dict output` (closed)
 - [`release-drafter/release-drafter`](https://github.com/release-drafter/release-drafter): Recent PR: `fix: fail GitHub Action when release drafting errors` (open)
+- [`bfirsh/jsnes`](https://github.com/bfirsh/jsnes): Recent PR: `fix(nes): preserve subsystem references across reset` (closed)
+- [`smogon/pokemon-showdown`](https://github.com/smogon/pokemon-showdown): Recent PR: `Fix Gen 5 Jaboca Berry vs Bug Bite activation timing` (open)
 - [`mondoohq/mql`](https://github.com/mondoohq/mql): Recent PR: `:bug: (os): skip unresolved users in group.members` (open)
 - [`tursodatabase/turso`](https://github.com/tursodatabase/turso): Recent PR: `fix: block cross-database view definitions` (open)
-- [`forwardemail/forwardemail.net`](https://github.com/forwardemail/forwardemail.net): Recent PR: `fix(alternatives): correct posteo internet.nl site link` (merged)
-- [`newton-physics/newton`](https://github.com/newton-physics/newton): Recent PR: `fix(viewer): avoid color_edit3 tuple type crash with imgui_bundle>=1.92.6` (open)
-- [`score-spec/score-compose`](https://github.com/score-spec/score-compose): Recent PR: `fix(generate): clarify first-run missing score file guidance` (open)
 <!-- CONTRIBUTING:END -->
 
 ## Merge Radar
@@ -79,19 +79,19 @@
   <tr>
     <td width="420">
       <strong>Closed PR merge rate</strong><br />
-      <code>##########---------- 48.9%</code><br />
-      <sub>43 merged out of 88 closed pull requests.</sub>
+      <code>##########---------- 47.8%</code><br />
+      <sub>43 merged out of 90 closed pull requests.</sub>
     </td>
     <td width="420">
       <strong>Current pipeline</strong><br />
-      <sub>67 open PRs in flight. 145 opened and 34 merged in the last 30 days.</sub>
+      <sub>68 open PRs in flight. 148 opened and 34 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
 
 | Total PRs | Closed | Merged | Open | Repos via PRs | Updated |
 | --- | --- | --- | --- | --- | --- |
-| 155 | 88 | 43 | 67 | 85 | 2026-03-08 18:56 UTC |
+| 158 | 90 | 43 | 68 | 86 | 2026-03-08 19:24 UTC |
 <!-- STATS:END -->
 
 ## OSS Signal
