@@ -1,4 +1,4 @@
-# Sergio Chan
+# Hi! I'm Sergio
 
 ### Full-Stack Hacker · Entrepreneur · Hardcore Gamer
 
