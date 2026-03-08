@@ -1,48 +1,100 @@
 <div align="center">
 
-# Sergio Chan · Full-Stack Hacker 👋
+# Sergio Chan
 
+### Full-Stack Hacker · Entrepreneur · Hardcore Gamer
+
+<p><strong>Hackathon-shaped builder shipping product, infra, and OSS fixes in public.</strong></p>
+<p>I build end-to-end systems across AI-native products, developer tooling, and agentic finance. I like hard bugs, tight feedback loops, and code that ships.</p>
+
+<!-- BADGES:START -->
 <p>
-  <a href="https://github.com/SergioChan?tab=followers"><img src="https://img.shields.io/github/followers/SergioChan?style=for-the-badge&logo=github&label=Followers" /></a>
-  <a href="https://github.com/SergioChan?tab=repositories"><img src="https://img.shields.io/badge/Repos-130%2B-181717?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/SergioChan?tab=stars"><img src="https://img.shields.io/badge/Stars-500%2B-f5b301?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/SergioChan?tab=followers"><img src="https://img.shields.io/badge/Followers-1.1K-181717?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/SergioChan?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-133-181717?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/SergioChan?tab=repositories"><img src="https://img.shields.io/badge/Stars%20Earned-2.6K-f5b301?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Repos%20via%20PRs-85-2f81f7?style=for-the-badge&logo=github" /></a>
+</p>
+<p>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Merge%20Rate-48.9%25-2ea043?style=for-the-badge&logo=git" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/PRs%20Merged-43-238636?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Open%20PRs-67-f85149?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/SergioChan"><img src="https://komarev.com/ghpvc/?username=SergioChan&style=for-the-badge&color=0e75b6" /></a>
 </p>
+<!-- BADGES:END -->
 
-**Building practical software. Shipping real fixes.**
+<p>
+  <img src="https://img.shields.io/badge/AI--Native%20Products-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/OSS%20Bugfixes-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/Payments%20Infra-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/Dev%20Tooling-111111?style=flat-square" />
+</p>
 
 </div>
 
----
+## Identity
 
-## 🧠 Who I am
+- Full-stack Hacker who moves across frontend, backend, infra, and debugging without waiting for perfect boundaries.
+- Entrepreneur currently building with [`T54 AI`](https://github.com/t54-labs) and turning product ideas into working systems.
+- Hardcore Gamer with a bias for difficult systems, fast iteration loops, and competitive execution.
 
-- Full-stack engineer focused on **pragmatic, mergeable contributions**
-- Active across tooling, infra, developer productivity, and product systems
-- Contribution style: **issue-linked, minimal diffs, explicit validation**
+## Affiliations
 
-## 🚀 What I’m doing now
+- Hackathon roots: built with [`hACKbUSTER`](https://github.com/hACKbUSTER), a public team forged in shipping under pressure.
+- Currently building: [`T54 AI`](https://github.com/t54-labs), focused on trusted agentic finance and payment infrastructure.
+- Previously: Founder of [`RCT AI`](https://github.com/rct-ai).
 
-- Driving high-signal OSS bugfixes across multiple active repositories
-- Prioritizing review follow-up and CI-unblock work
-- Maintaining a consistent ship cadence with quality gates
+## Current Focus
 
-## 📈 Live contribution metrics
+- AI-native product engineering with real user-facing workflows
+- Agentic finance, payment rails, trust, and transaction infrastructure
+- Developer tooling, automation, and OSS maintenance at reviewable speed
+- End-to-end delivery from interface design to backend systems and production operations
 
-> Auto-updated hourly via GitHub Actions.
+## Currently Building
+
+<!-- BUILDING:START -->
+- [`t54-labs/clawcredit-blockrun-gateway`](https://github.com/t54-labs/clawcredit-blockrun-gateway): Gateway layer for ClawCredit and BlockRun payment flows (TypeScript)
+- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): x402scan - An x402 ecosystem explorer for the XRP Ledger (TypeScript)
+- [`t54-labs/x402-secure`](https://github.com/t54-labs/x402-secure): Security-focused x402 tooling for trusted payment flows (Python)
+- [`t54-labs/tpay-sdk-python`](https://github.com/t54-labs/tpay-sdk-python): Comprehensive AI payment solution for real-world applications (Python)
+<!-- BUILDING:END -->
+
+## Currently Contributing
+
+<!-- CONTRIBUTING:START -->
+- [`release-drafter/release-drafter`](https://github.com/release-drafter/release-drafter): Recent PR: `fix: fail GitHub Action when release drafting errors` (open)
+- [`mondoohq/mql`](https://github.com/mondoohq/mql): Recent PR: `:bug: (os): skip unresolved users in group.members` (open)
+- [`tursodatabase/turso`](https://github.com/tursodatabase/turso): Recent PR: `fix: block cross-database view definitions` (open)
+- [`forwardemail/forwardemail.net`](https://github.com/forwardemail/forwardemail.net): Recent PR: `fix(alternatives): correct posteo internet.nl site link` (merged)
+- [`newton-physics/newton`](https://github.com/newton-physics/newton): Recent PR: `fix(viewer): avoid color_edit3 tuple type crash with imgui_bundle>=1.92.6` (open)
+- [`score-spec/score-compose`](https://github.com/score-spec/score-compose): Recent PR: `fix(generate): clarify first-run missing score file guidance` (open)
+<!-- CONTRIBUTING:END -->
+
+## Merge Radar
+
+> Refreshed hourly from public GitHub activity.
 
 <!-- STATS:START -->
-- 📦 **Total PRs opened:** 155
-- ✅ **PRs merged:** 43
-- 🟢 **Open PRs now:** 67
-- 🎯 **Acceptance rate (merged / closed):** 48.9%
-- 🧭 **Repos contributed via PRs:** 79
-- ⚡ **PRs opened (last 30d):** 145
-- 🔥 **PRs merged (last 30d):** 34
-- 🕒 **Last updated:** 2026-03-08 18:41:58.863 UTC
+<table>
+  <tr>
+    <td width="420">
+      <strong>Closed PR merge rate</strong><br />
+      <code>##########---------- 48.9%</code><br />
+      <sub>43 merged out of 88 closed pull requests.</sub>
+    </td>
+    <td width="420">
+      <strong>Current pipeline</strong><br />
+      <sub>67 open PRs in flight. 145 opened and 34 merged in the last 30 days.</sub>
+    </td>
+  </tr>
+</table>
+
+| Total PRs | Closed | Merged | Open | Repos via PRs | Updated |
+| --- | --- | --- | --- | --- | --- |
+| 155 | 88 | 43 | 67 | 85 | 2026-03-08 18:56 UTC |
 <!-- STATS:END -->
 
-## 📊 Visual stats
+## OSS Signal
 
 <div align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=SergioChan&show_icons=true&rank_icon=github&hide_border=true&theme=transparent" />
@@ -53,7 +105,7 @@
   <img src="https://streak-stats.demolab.com?user=SergioChan&hide_border=true&theme=transparent" />
 </div>
 
-## 🛠 Tech focus
+## Stack
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
@@ -61,17 +113,11 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-## 🤝 Collaboration
-
-If you're building in OSS and need someone to drive a bug from repro → fix → merge, I'm in.
-
-- Open an issue with reproducible details
-- Tag me on a PR thread
-- Or just say hi 👋
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
 
 ---
 
 <div align="center">
-  <sub>Profile README is maintained automatically and refreshed hourly.</sub>
+  <sub>Signal refreshed hourly from public GitHub activity.</sub>
 </div>
