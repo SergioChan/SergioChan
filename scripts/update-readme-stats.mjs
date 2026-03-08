@@ -130,6 +130,11 @@ function renderProgressBar(percent, width = progressBarWidth) {
   return `${'#'.repeat(filled)}${'-'.repeat(width - filled)}`;
 }
 
+function renderBarChart(value, max, width = progressBarWidth) {
+  const filled = Math.round((value / Math.max(max, 1)) * width);
+  return '█'.repeat(filled) + '░'.repeat(width - filled);
+}
+
 function badgeUrl(label, message, color, options = {}) {
   const params = new URLSearchParams({ style: options.style ?? 'for-the-badge' });
   if (options.logo) params.set('logo', options.logo);
@@ -238,24 +243,64 @@ async function main() {
     .join('\n');
 
   const now = formatTimestamp(new Date());
+  const numWidth = Math.max(String(totalPRs).length, 3);
   const statsBlock = [
     '<table>',
     '  <tr>',
-    '    <td width="420">',
-    '      <strong>Closed PR merge rate</strong><br />',
-    `      <code>${renderProgressBar(acceptanceRate)} ${formatPercent(acceptanceRate)}</code><br />`,
-    `      <sub>${mergedPRs} merged out of ${closedPRs} closed pull requests.</sub>`,
+    '    <td align="center" width="25%">',
+    '      <br/>',
+    `      <a href="${contributionSearchUrl}+is%3Aclosed">`,
+    `        <img src="https://img.shields.io/badge/${encodeURIComponent(formatPercent(acceptanceRate))}-2ea043?style=for-the-badge" />`,
+    '      </a><br/>',
+    '      <sub><b>MERGE RATE</b></sub><br/>',
+    `      <sub>${mergedPRs} / ${closedPRs} closed</sub>`,
+    '      <br/><br/>',
     '    </td>',
-    '    <td width="420">',
-    '      <strong>Current pipeline</strong><br />',
-    `      <sub>${openPRs} open PRs in flight. ${prs30d} opened and ${merged30d} merged in the last 30 days.</sub>`,
+    '    <td align="center" width="25%">',
+    '      <br/>',
+    `      <a href="${contributionSearchUrl}">`,
+    `        <img src="https://img.shields.io/badge/${totalPRs}-2f81f7?style=for-the-badge" />`,
+    '      </a><br/>',
+    '      <sub><b>TOTAL PRS</b></sub><br/>',
+    '      <sub>all time</sub>',
+    '      <br/><br/>',
+    '    </td>',
+    '    <td align="center" width="25%">',
+    '      <br/>',
+    `      <a href="${contributionSearchUrl}+is%3Aopen">`,
+    `        <img src="https://img.shields.io/badge/${openPRs}-f85149?style=for-the-badge" />`,
+    '      </a><br/>',
+    '      <sub><b>IN FLIGHT</b></sub><br/>',
+    '      <sub>open PRs</sub>',
+    '      <br/><br/>',
+    '    </td>',
+    '    <td align="center" width="25%">',
+    '      <br/>',
+    `      <a href="${contributionSearchUrl}">`,
+    `        <img src="https://img.shields.io/badge/${reposContributed}-a371f7?style=for-the-badge" />`,
+    '      </a><br/>',
+    '      <sub><b>REPOS TOUCHED</b></sub><br/>',
+    '      <sub>via PRs</sub>',
+    '      <br/><br/>',
     '    </td>',
     '  </tr>',
     '</table>',
     '',
-    '| Total PRs | Closed | Merged | Open | Repos via PRs | Updated |',
-    '| --- | --- | --- | --- | --- | --- |',
-    `| ${totalPRs} | ${closedPRs} | ${mergedPRs} | ${openPRs} | ${reposContributed} | ${now} |`,
+    '<table>',
+    '  <tr>',
+    '    <td>',
+    `      <code>MERGED ${renderBarChart(mergedPRs, totalPRs)} ${String(mergedPRs).padStart(numWidth)}</code><br/>`,
+    `      <code>OPEN   ${renderBarChart(openPRs, totalPRs)} ${String(openPRs).padStart(numWidth)}</code><br/>`,
+    `      <code>CLOSED ${renderBarChart(closedPRs, totalPRs)} ${String(closedPRs).padStart(numWidth)}</code><br/>`,
+    `      <code>TOTAL  ${renderBarChart(totalPRs, totalPRs)} ${String(totalPRs).padStart(numWidth)}</code>`,
+    '    </td>',
+    '    <td valign="top">',
+    `      <sub><b>30-day pulse</b><br/>${prs30d} PRs opened<br/>${merged30d} PRs merged</sub>`,
+    '      <br/><br/>',
+    `      <sub>Updated ${now}</sub>`,
+    '    </td>',
+    '  </tr>',
+    '</table>',
   ].join('\n');
 
   const ossSignalBlock = [

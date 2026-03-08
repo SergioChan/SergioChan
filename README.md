@@ -52,21 +52,60 @@ I build end-to-end systems across AI-native products, developer tooling, and age
 <!-- STATS:START -->
 <table>
   <tr>
-    <td width="420">
-      <strong>Closed PR merge rate</strong><br />
-      <code>#########----------- 46.3%</code><br />
-      <sub>44 merged out of 95 closed pull requests.</sub>
+    <td align="center" width="25%">
+      <br/>
+      <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan+is%3Aclosed">
+        <img src="https://img.shields.io/badge/46.3%25-2ea043?style=for-the-badge" />
+      </a><br/>
+      <sub><b>MERGE RATE</b></sub><br/>
+      <sub>44 / 95 closed</sub>
+      <br/><br/>
     </td>
-    <td width="420">
-      <strong>Current pipeline</strong><br />
-      <sub>71 open PRs in flight. 156 opened and 35 merged in the last 30 days.</sub>
+    <td align="center" width="25%">
+      <br/>
+      <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan">
+        <img src="https://img.shields.io/badge/166-2f81f7?style=for-the-badge" />
+      </a><br/>
+      <sub><b>TOTAL PRS</b></sub><br/>
+      <sub>all time</sub>
+      <br/><br/>
+    </td>
+    <td align="center" width="25%">
+      <br/>
+      <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan+is%3Aopen">
+        <img src="https://img.shields.io/badge/71-f85149?style=for-the-badge" />
+      </a><br/>
+      <sub><b>IN FLIGHT</b></sub><br/>
+      <sub>open PRs</sub>
+      <br/><br/>
+    </td>
+    <td align="center" width="25%">
+      <br/>
+      <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan">
+        <img src="https://img.shields.io/badge/93-a371f7?style=for-the-badge" />
+      </a><br/>
+      <sub><b>REPOS TOUCHED</b></sub><br/>
+      <sub>via PRs</sub>
+      <br/><br/>
     </td>
   </tr>
 </table>
 
-| Total PRs | Closed | Merged | Open | Repos via PRs | Updated |
-| --- | --- | --- | --- | --- | --- |
-| 166 | 95 | 44 | 71 | 93 | 2026-03-08 21:24 UTC |
+<table>
+  <tr>
+    <td>
+      <code>MERGED █████░░░░░░░░░░░░░░░  44</code><br/>
+      <code>OPEN   █████████░░░░░░░░░░░  71</code><br/>
+      <code>CLOSED ███████████░░░░░░░░░  95</code><br/>
+      <code>TOTAL  ████████████████████ 166</code>
+    </td>
+    <td valign="top">
+      <sub><b>30-day pulse</b><br/>156 PRs opened<br/>35 PRs merged</sub>
+      <br/><br/>
+      <sub>Updated 2026-03-08 21:24 UTC</sub>
+    </td>
+  </tr>
+</table>
 <!-- STATS:END -->
 
 ## Open Source Footprint
