@@ -1,11 +1,10 @@
-<div align="center">
-
 # Sergio Chan
 
 ### Full-Stack Hacker · Entrepreneur · Hardcore Gamer
 
-<p><strong>Keep shipping product, infra, and open source contributions in public.</strong></p>
-<p>I build end-to-end systems across AI-native products, developer tooling, and agentic finance. I like hard problems, tight feedback loops, and code that ships.</p>
+**Keep shipping product, infra, and open source contributions in public.**
+
+I build end-to-end systems across AI-native products, developer tooling, and agentic finance. I like hard problems, tight feedback loops, and code that ships.
 
 <!-- BADGES:START -->
 <p>
@@ -30,9 +29,6 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
 
-
-</div>
-
 ## Identity
 
 - Full-stack Hacker who moves across frontend/backend, agents, fintech, blockchain development, hardware,, embedded system, VR/AR, game development, and more.
@@ -55,21 +51,60 @@
 <!-- STATS:START -->
 <table>
   <tr>
-    <td width="420">
-      <strong>Closed PR merge rate</strong><br />
-      <code>##########---------- 48.4%</code><br />
-      <sub>44 merged out of 91 closed pull requests.</sub>
+    <td align="center" width="25%">
+      <br/>
+      <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan+is%3Aclosed">
+        <img src="https://img.shields.io/badge/48.4%25-2ea043?style=for-the-badge" />
+      </a><br/>
+      <sub><b>MERGE RATE</b></sub><br/>
+      <sub>44 / 91 closed</sub>
+      <br/><br/>
     </td>
-    <td width="420">
-      <strong>Current pipeline</strong><br />
-      <sub>68 open PRs in flight. 149 opened and 35 merged in the last 30 days.</sub>
+    <td align="center" width="25%">
+      <br/>
+      <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan">
+        <img src="https://img.shields.io/badge/159-2f81f7?style=for-the-badge" />
+      </a><br/>
+      <sub><b>TOTAL PRS</b></sub><br/>
+      <sub>all time</sub>
+      <br/><br/>
+    </td>
+    <td align="center" width="25%">
+      <br/>
+      <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan+is%3Aopen">
+        <img src="https://img.shields.io/badge/68-f85149?style=for-the-badge" />
+      </a><br/>
+      <sub><b>IN FLIGHT</b></sub><br/>
+      <sub>open PRs</sub>
+      <br/><br/>
+    </td>
+    <td align="center" width="25%">
+      <br/>
+      <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan">
+        <img src="https://img.shields.io/badge/87-a371f7?style=for-the-badge" />
+      </a><br/>
+      <sub><b>REPOS TOUCHED</b></sub><br/>
+      <sub>via PRs</sub>
+      <br/><br/>
     </td>
   </tr>
 </table>
 
-| Total PRs | Closed | Merged | Open | Repos via PRs | Updated |
-| --- | --- | --- | --- | --- | --- |
-| 159 | 91 | 44 | 68 | 87 | 2026-03-08 20:09 UTC |
+<table>
+  <tr>
+    <td>
+      <code>MERGED ██████░░░░░░░░░░░░░░  44</code><br/>
+      <code>OPEN   █████████░░░░░░░░░░░  68</code><br/>
+      <code>CLOSED ███████████░░░░░░░░░  91</code><br/>
+      <code>TOTAL  ████████████████████ 159</code>
+    </td>
+    <td valign="top">
+      <sub><b>30-day pulse</b><br/>149 PRs opened<br/>35 PRs merged</sub>
+      <br/><br/>
+      <sub>Updated 2026-03-08 20:09 UTC</sub>
+    </td>
+  </tr>
+</table>
 <!-- STATS:END -->
 
 ## Open Source Footprint
