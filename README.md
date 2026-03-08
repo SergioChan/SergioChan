@@ -32,7 +32,14 @@
 > Auto-updated hourly via GitHub Actions.
 
 <!-- STATS:START -->
-Updating...
+- 📦 **Total PRs opened:** 326
+- ✅ **PRs merged:** 213
+- 🟢 **Open PRs now:** 68
+- 🎯 **Acceptance rate (merged / closed):** 82.6%
+- 🧭 **Repos contributed via PRs:** 85
+- ⚡ **PRs opened (last 30d):** 154
+- 🔥 **PRs merged (last 30d):** 43
+- 🕒 **Last updated:** 2026-03-08 18:41:37.655 UTC
 <!-- STATS:END -->
 
 ## 📊 Visual stats
