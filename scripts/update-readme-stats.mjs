@@ -258,6 +258,25 @@ async function main() {
     `| ${totalPRs} | ${closedPRs} | ${mergedPRs} | ${openPRs} | ${reposContributed} | ${now} |`,
   ].join('\n');
 
+  const ossSignalBlock = [
+    '<table>',
+    '  <tr>',
+    '    <td width="280">',
+    '      <strong>Public footprint</strong><br />',
+    `      <sub>${profile.public_repos} public repos, ${formatCompactNumber(totalStars)} stars earned, ${formatCompactNumber(profile.followers)} followers.</sub>`,
+    '    </td>',
+    '    <td width="280">',
+    '      <strong>Contribution spread</strong><br />',
+    `      <sub>${reposContributed} public repositories touched via pull requests, ${totalPRs} public PRs opened in total.</sub>`,
+    '    </td>',
+    '    <td width="280">',
+    '      <strong>Recent pace</strong><br />',
+    `      <sub>${prs30d} public PRs opened and ${merged30d} merged in the last 30 days.</sub>`,
+    '    </td>',
+    '  </tr>',
+    '</table>',
+  ].join('\n');
+
   const readmePath = new URL('../README.md', import.meta.url);
   let readme = await fs.readFile(readmePath, 'utf8');
 
@@ -265,6 +284,7 @@ async function main() {
   readme = replaceBlock(readme, '<!-- BUILDING:START -->', '<!-- BUILDING:END -->', buildingBlock);
   readme = replaceBlock(readme, '<!-- CONTRIBUTING:START -->', '<!-- CONTRIBUTING:END -->', contributingBlock);
   readme = replaceBlock(readme, '<!-- STATS:START -->', '<!-- STATS:END -->', statsBlock);
+  readme = replaceBlock(readme, '<!-- OSS_SIGNAL:START -->', '<!-- OSS_SIGNAL:END -->', ossSignalBlock);
 
   await fs.writeFile(readmePath, readme);
   console.log('README profile sections updated');
