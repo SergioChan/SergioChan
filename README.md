@@ -9,7 +9,7 @@ I build end-to-end systems across AI-native products, developer tooling, and age
 <!-- BADGES:START -->
 <p>
   <a href="https://github.com/SergioChan?tab=followers"><img src="https://img.shields.io/badge/Followers-1.1K-181717?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/SergioChan?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-149-181717?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/SergioChan?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-150-181717?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/SergioChan?tab=repositories"><img src="https://img.shields.io/badge/Stars%20Earned-2.6K-f5b301?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Repos%20via%20PRs-101-2f81f7?style=for-the-badge&logo=github" /></a>
 </p>
@@ -102,7 +102,7 @@ I build end-to-end systems across AI-native products, developer tooling, and age
     <td valign="top">
       <sub><b>30-day pulse</b><br/>177 PRs opened<br/>42 PRs merged</sub>
       <br/><br/>
-      <sub>Updated 2026-03-09 13:42 UTC</sub>
+      <sub>Updated 2026-03-09 14:34 UTC</sub>
     </td>
   </tr>
 </table>
@@ -115,7 +115,7 @@ I build end-to-end systems across AI-native products, developer tooling, and age
   <tr>
     <td width="280">
       <strong>Public footprint</strong><br />
-      <sub>149 public repos, 2.6K stars earned, 1.1K followers.</sub>
+      <sub>150 public repos, 2.6K stars earned, 1.1K followers.</sub>
     </td>
     <td width="280">
       <strong>Contribution spread</strong><br />
