@@ -40,6 +40,7 @@ I build end-to-end systems across AI-native products, developer tooling, and age
 
 ## Current Focus
 
+- Building [`OpenPocket`](https://github.com/pockebot/openpocket) for phone-use agent
 - AI-native product engineering with real user-facing workflows
 - Agentic finance, payment rails, trust, and transaction infrastructure
 - End-to-end delivery from interface design to backend systems and production operations
