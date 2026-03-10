@@ -14,9 +14,9 @@ I build end-to-end systems across AI-native products, developer tooling, and age
   <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Repos%20via%20PRs-126-2f81f7?style=for-the-badge&logo=github" /></a>
 </p>
 <p>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Merge%20Rate-51.0%25-2ea043?style=for-the-badge&logo=git" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/PRs%20Merged-73-238636?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Open%20PRs-96-f85149?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Merge%20Rate-50.0%25-2ea043?style=for-the-badge&logo=git" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/PRs%20Merged-75-238636?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Open%20PRs-90-f85149?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/SergioChan"><img src="https://komarev.com/ghpvc/?username=SergioChan&style=for-the-badge&color=0e75b6" /></a>
 </p>
 <!-- BADGES:END -->
@@ -56,16 +56,16 @@ I build end-to-end systems across AI-native products, developer tooling, and age
     <td align="center" width="25%">
       <br/>
       <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan+is%3Aclosed">
-        <img src="https://img.shields.io/badge/51.0%25-2ea043?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/50.0%25-2ea043?style=for-the-badge" />
       </a><br/>
       <sub><b>MERGE RATE</b></sub><br/>
-      <sub>73 / 143 closed</sub>
+      <sub>75 / 150 closed</sub>
       <br/><br/>
     </td>
     <td align="center" width="25%">
       <br/>
       <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan">
-        <img src="https://img.shields.io/badge/239-2f81f7?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/240-2f81f7?style=for-the-badge" />
       </a><br/>
       <sub><b>TOTAL PRS</b></sub><br/>
       <sub>all time</sub>
@@ -74,7 +74,7 @@ I build end-to-end systems across AI-native products, developer tooling, and age
     <td align="center" width="25%">
       <br/>
       <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan+is%3Aopen">
-        <img src="https://img.shields.io/badge/96-f85149?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/90-f85149?style=for-the-badge" />
       </a><br/>
       <sub><b>IN FLIGHT</b></sub><br/>
       <sub>open PRs</sub>
@@ -95,15 +95,15 @@ I build end-to-end systems across AI-native products, developer tooling, and age
 <table>
   <tr>
     <td>
-      <code>MERGED ██████░░░░░░░░░░░░░░  73</code><br/>
-      <code>OPEN   ████████░░░░░░░░░░░░  96</code><br/>
-      <code>CLOSED ████████████░░░░░░░░ 143</code><br/>
-      <code>TOTAL  ████████████████████ 239</code>
+      <code>MERGED ██████░░░░░░░░░░░░░░  75</code><br/>
+      <code>OPEN   ████████░░░░░░░░░░░░  90</code><br/>
+      <code>CLOSED █████████████░░░░░░░ 150</code><br/>
+      <code>TOTAL  ████████████████████ 240</code>
     </td>
     <td valign="top">
-      <sub><b>30-day pulse</b><br/>229 PRs opened<br/>64 PRs merged</sub>
+      <sub><b>30-day pulse</b><br/>230 PRs opened<br/>66 PRs merged</sub>
       <br/><br/>
-      <sub>Updated 2026-03-10 18:30 UTC</sub>
+      <sub>Updated 2026-03-10 19:28 UTC</sub>
     </td>
   </tr>
 </table>
@@ -120,11 +120,11 @@ I build end-to-end systems across AI-native products, developer tooling, and age
     </td>
     <td width="280">
       <strong>Contribution spread</strong><br />
-      <sub>126 public repositories touched via pull requests, 239 public PRs opened in total.</sub>
+      <sub>126 public repositories touched via pull requests, 240 public PRs opened in total.</sub>
     </td>
     <td width="280">
       <strong>Recent pace</strong><br />
-      <sub>229 public PRs opened and 64 merged in the last 30 days.</sub>
+      <sub>230 public PRs opened and 66 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
