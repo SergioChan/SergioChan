@@ -15,8 +15,8 @@ I build end-to-end systems across AI-native products, developer tooling, and age
 </p>
 <p>
   <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Merge%20Rate-47.1%25-2ea043?style=for-the-badge&logo=git" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/PRs%20Merged-81-238636?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Open%20PRs-109-f85149?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/PRs%20Merged-82-238636?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Open%20PRs-110-f85149?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/SergioChan"><img src="https://komarev.com/ghpvc/?username=SergioChan&style=for-the-badge&color=0e75b6" /></a>
 </p>
 <!-- BADGES:END -->
@@ -59,13 +59,13 @@ I build end-to-end systems across AI-native products, developer tooling, and age
         <img src="https://img.shields.io/badge/47.1%25-2ea043?style=for-the-badge" />
       </a><br/>
       <sub><b>MERGE RATE</b></sub><br/>
-      <sub>81 / 172 closed</sub>
+      <sub>82 / 174 closed</sub>
       <br/><br/>
     </td>
     <td align="center" width="25%">
       <br/>
       <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan">
-        <img src="https://img.shields.io/badge/281-2f81f7?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/284-2f81f7?style=for-the-badge" />
       </a><br/>
       <sub><b>TOTAL PRS</b></sub><br/>
       <sub>all time</sub>
@@ -74,7 +74,7 @@ I build end-to-end systems across AI-native products, developer tooling, and age
     <td align="center" width="25%">
       <br/>
       <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan+is%3Aopen">
-        <img src="https://img.shields.io/badge/109-f85149?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/110-f85149?style=for-the-badge" />
       </a><br/>
       <sub><b>IN FLIGHT</b></sub><br/>
       <sub>open PRs</sub>
@@ -95,15 +95,15 @@ I build end-to-end systems across AI-native products, developer tooling, and age
 <table>
   <tr>
     <td>
-      <code>MERGED ██████░░░░░░░░░░░░░░  81</code><br/>
-      <code>OPEN   ████████░░░░░░░░░░░░ 109</code><br/>
-      <code>CLOSED ████████████░░░░░░░░ 172</code><br/>
-      <code>TOTAL  ████████████████████ 281</code>
+      <code>MERGED ██████░░░░░░░░░░░░░░  82</code><br/>
+      <code>OPEN   ████████░░░░░░░░░░░░ 110</code><br/>
+      <code>CLOSED ████████████░░░░░░░░ 174</code><br/>
+      <code>TOTAL  ████████████████████ 284</code>
     </td>
     <td valign="top">
-      <sub><b>30-day pulse</b><br/>271 PRs opened<br/>72 PRs merged</sub>
+      <sub><b>30-day pulse</b><br/>274 PRs opened<br/>73 PRs merged</sub>
       <br/><br/>
-      <sub>Updated 2026-03-11 06:32 UTC</sub>
+      <sub>Updated 2026-03-11 07:32 UTC</sub>
     </td>
   </tr>
 </table>
@@ -120,11 +120,11 @@ I build end-to-end systems across AI-native products, developer tooling, and age
     </td>
     <td width="280">
       <strong>Contribution spread</strong><br />
-      <sub>137 public repositories touched via pull requests, 281 public PRs opened in total.</sub>
+      <sub>137 public repositories touched via pull requests, 284 public PRs opened in total.</sub>
     </td>
     <td width="280">
       <strong>Recent pace</strong><br />
-      <sub>271 public PRs opened and 72 merged in the last 30 days.</sub>
+      <sub>274 public PRs opened and 73 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
