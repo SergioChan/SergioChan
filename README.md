@@ -103,7 +103,7 @@ I build end-to-end systems across AI-native products, developer tooling, and age
     <td valign="top">
       <sub><b>30-day pulse</b><br/>329 PRs opened<br/>99 PRs merged</sub>
       <br/><br/>
-      <sub>Updated 2026-03-23 10:34 UTC</sub>
+      <sub>Updated 2026-03-23 11:31 UTC</sub>
     </td>
   </tr>
 </table>
