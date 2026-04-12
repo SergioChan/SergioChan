@@ -101,9 +101,9 @@ I build end-to-end systems across AI-native products, developer tooling, and age
       <code>TOTAL  ████████████████████ 340</code>
     </td>
     <td valign="top">
-      <sub><b>30-day pulse</b><br/>22 PRs opened<br/>25 PRs merged</sub>
+      <sub><b>30-day pulse</b><br/>11 PRs opened<br/>19 PRs merged</sub>
       <br/><br/>
-      <sub>Updated 2026-04-11 23:25 UTC</sub>
+      <sub>Updated 2026-04-12 01:02 UTC</sub>
     </td>
   </tr>
 </table>
@@ -124,7 +124,7 @@ I build end-to-end systems across AI-native products, developer tooling, and age
     </td>
     <td width="280">
       <strong>Recent pace</strong><br />
-      <sub>22 public PRs opened and 25 merged in the last 30 days.</sub>
+      <sub>11 public PRs opened and 19 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
