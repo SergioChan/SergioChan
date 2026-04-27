@@ -11,7 +11,7 @@ I build end-to-end systems across AI-native products, developer tooling, and age
   <a href="https://github.com/SergioChan?tab=followers"><img src="https://img.shields.io/badge/Followers-1.1K-181717?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/SergioChan?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-296-181717?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/SergioChan?tab=repositories"><img src="https://img.shields.io/badge/Stars%20Earned-2.6K-f5b301?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Repos%20via%20PRs-0-2f81f7?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Repos%20via%20PRs-130-2f81f7?style=for-the-badge&logo=github" /></a>
 </p>
 <p>
   <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Merge%20Rate-40.8%25-2ea043?style=for-the-badge&logo=git" /></a>
@@ -83,7 +83,7 @@ I build end-to-end systems across AI-native products, developer tooling, and age
     <td align="center" width="25%">
       <br/>
       <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan">
-        <img src="https://img.shields.io/badge/0-a371f7?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/130-a371f7?style=for-the-badge" />
       </a><br/>
       <sub><b>REPOS TOUCHED</b></sub><br/>
       <sub>via PRs</sub>
@@ -103,7 +103,7 @@ I build end-to-end systems across AI-native products, developer tooling, and age
     <td valign="top">
       <sub><b>30-day pulse</b><br/>0 PRs opened<br/>8 PRs merged</sub>
       <br/><br/>
-      <sub>Updated 2026-04-27 20:39 UTC</sub>
+      <sub>Updated 2026-04-27 21:36 UTC</sub>
     </td>
   </tr>
 </table>
@@ -120,7 +120,7 @@ I build end-to-end systems across AI-native products, developer tooling, and age
     </td>
     <td width="280">
       <strong>Contribution spread</strong><br />
-      <sub>0 public repositories touched via pull requests, 310 public PRs opened in total.</sub>
+      <sub>130 public repositories touched via pull requests, 310 public PRs opened in total.</sub>
     </td>
     <td width="280">
       <strong>Recent pace</strong><br />
