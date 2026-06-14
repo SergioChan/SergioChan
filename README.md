@@ -14,8 +14,8 @@ I build end-to-end systems across AI-native products, developer tooling, and age
   <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Repos%20via%20PRs-148-2f81f7?style=for-the-badge&logo=github" /></a>
 </p>
 <p>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Merge%20Rate-40.0%25-2ea043?style=for-the-badge&logo=git" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/PRs%20Merged-120-238636?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Merge%20Rate-39.7%25-2ea043?style=for-the-badge&logo=git" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/PRs%20Merged-119-238636?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Open%20PRs-41-f85149?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/SergioChan"><img src="https://komarev.com/ghpvc/?username=SergioChan&style=for-the-badge&color=0e75b6" /></a>
 </p>
@@ -56,10 +56,10 @@ I build end-to-end systems across AI-native products, developer tooling, and age
     <td align="center" width="25%">
       <br/>
       <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan+is%3Aclosed">
-        <img src="https://img.shields.io/badge/40.0%25-2ea043?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/39.7%25-2ea043?style=for-the-badge" />
       </a><br/>
       <sub><b>MERGE RATE</b></sub><br/>
-      <sub>120 / 300 closed</sub>
+      <sub>119 / 300 closed</sub>
       <br/><br/>
     </td>
     <td align="center" width="25%">
@@ -95,15 +95,15 @@ I build end-to-end systems across AI-native products, developer tooling, and age
 <table>
   <tr>
     <td>
-      <code>MERGED ███████░░░░░░░░░░░░░ 120</code><br/>
+      <code>MERGED ███████░░░░░░░░░░░░░ 119</code><br/>
       <code>OPEN   ██░░░░░░░░░░░░░░░░░░  41</code><br/>
       <code>CLOSED ██████████████████░░ 300</code><br/>
       <code>TOTAL  ████████████████████ 341</code>
     </td>
     <td valign="top">
-      <sub><b>30-day pulse</b><br/>0 PRs opened<br/>3 PRs merged</sub>
+      <sub><b>30-day pulse</b><br/>2 PRs opened<br/>2 PRs merged</sub>
       <br/><br/>
-      <sub>Updated 2026-05-25 03:25 UTC</sub>
+      <sub>Updated 2026-06-14 22:03 UTC</sub>
     </td>
   </tr>
 </table>
@@ -124,7 +124,7 @@ I build end-to-end systems across AI-native products, developer tooling, and age
     </td>
     <td width="280">
       <strong>Recent pace</strong><br />
-      <sub>0 public PRs opened and 3 merged in the last 30 days.</sub>
+      <sub>2 public PRs opened and 2 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>

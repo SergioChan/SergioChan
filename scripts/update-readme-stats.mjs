@@ -44,10 +44,21 @@ async function gh(url, init = {}) {
   });
 
   if (!res.ok) {
-    throw new Error(`GitHub request failed ${res.status}: ${await res.text()}`);
+    const err = new Error(`GitHub request failed ${res.status}: ${await res.text()}`);
+    err.status = res.status;
+    throw err;
   }
 
   return res.json();
+}
+
+async function ghOptional(url, fallback) {
+  try {
+    return await gh(url);
+  } catch (err) {
+    if (err.status === 404) return fallback;
+    throw err;
+  }
 }
 
 async function searchIssues(query, options = {}) {
@@ -146,6 +157,15 @@ function cleanDescription(description, fallback) {
   return text.endsWith('.') ? text.slice(0, -1) : text;
 }
 
+function fallbackRepo(repo) {
+  return {
+    full_name: repo.fullName,
+    html_url: `https://github.com/${repo.fullName}`,
+    description: repo.fallbackDescription,
+    language: null,
+  };
+}
+
 function shortenText(text, maxLength) {
   if (text.length <= maxLength) return text;
   const trimmed = text.slice(0, maxLength - 3).replace(/[.\s]+$/g, '');
@@ -182,7 +202,7 @@ async function main() {
     searchCount(`${publicPRQuery} is:merged merged:>=${isoDaysAgo(30)}`),
     searchAllIssues(publicPRQuery),
     listOwnedRepos(owner),
-    Promise.all(featuredBuildRepos.map((repo) => gh(`/repos/${repo.fullName}`))),
+    Promise.all(featuredBuildRepos.map((repo) => ghOptional(`/repos/${repo.fullName}`, fallbackRepo(repo)))),
     searchIssues(publicPRQuery, { sort: 'updated', order: 'desc', perPage: 30 }),
   ]);
 
