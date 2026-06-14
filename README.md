@@ -1,113 +1,47 @@
-# Hi! I'm Sergio
-
-### Full-Stack Hacker · Entrepreneur · Hardcore Gamer
-
-**Keep shipping product, infra, and open source contributions in public.**
-
-I build end-to-end systems across AI-native products, developer tooling, and agentic finance. I like hard problems, tight feedback loops, and code that ships.
-
-<!-- BADGES:START -->
-<p>
-  <a href="https://github.com/SergioChan?tab=followers"><img src="https://img.shields.io/badge/Followers-1.1K-181717?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/SergioChan?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-296-181717?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/SergioChan?tab=repositories"><img src="https://img.shields.io/badge/Stars%20Earned-2.6K-f5b301?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Repos%20via%20PRs-148-2f81f7?style=for-the-badge&logo=github" /></a>
+<!-- HERO:START -->
+<p align="center">
+  <img src="./assets/profile-hero.svg" alt="SergioChan profile command center" width="100%" />
 </p>
-<p>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Merge%20Rate-39.7%25-2ea043?style=for-the-badge&logo=git" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/PRs%20Merged-119-238636?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><img src="https://img.shields.io/badge/Open%20PRs-41-f85149?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/SergioChan"><img src="https://komarev.com/ghpvc/?username=SergioChan&style=for-the-badge&color=0e75b6" /></a>
+<!-- HERO:END -->
+
+<p align="center">
+  <a href="https://github.com/pockebot/openpocket"><strong>OpenPocket</strong></a>
+  &nbsp;/&nbsp;
+  <a href="https://github.com/t54-labs"><strong>t54-labs</strong></a>
+  &nbsp;/&nbsp;
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><strong>public PR trail</strong></a>
 </p>
-<!-- BADGES:END -->
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+## Operating Thesis
 
-## Identity
-
-- Full-stack Hacker who moves across frontend/backend, agents, fintech, blockchain development, hardware,, embedded system, VR/AR, game development, and more.
-- Founder of [`@t54ai`](https://github.com/t54-labs) and building for the future of agentic economy.
-- Previous founder of [`@rct`](https://github.com/rct-ai).
-- Hackathon roots: built with [`@hACKbUSTER`](https://github.com/hACKbUSTER), a public team forged in shipping under pressure.
-
+I build end-to-end systems across AI-native products, developer tooling, agentic finance, payments, games, hardware, embedded systems, and VR/AR. The through-line is simple: ship the weird useful thing, prove it in public, then make it sharper.
 
 ## Current Focus
 
-- Building [`OpenPocket`](https://github.com/pockebot/openpocket) for phone-use agent
-- AI-native product engineering with real user-facing workflows
-- Agentic finance, payment rails, trust, and transaction infrastructure
-- End-to-end delivery from interface design to backend systems and production operations
+- Building [`OpenPocket`](https://github.com/pockebot/openpocket), a phone-use agent that treats the device as the runtime.
+- Founder of [`t54-labs`](https://github.com/t54-labs), building payment and trust infrastructure for the agentic economy.
+- Previous founder of [`rct-ai`](https://github.com/rct-ai).
+- Hackathon roots with [`hACKbUSTER`](https://github.com/hACKbUSTER), where shipping under pressure became the default setting.
 
+## Build Lab
 
-## Merge Radar
+<!-- BUILDING:START -->
+- [`t54-labs/clawcredit-blockrun-gateway`](https://github.com/t54-labs/clawcredit-blockrun-gateway): Gateway layer for ClawCredit and BlockRun payment flows (TypeScript)
+- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): x402scan - An x402 ecosystem explorer for the XRP Ledger (TypeScript)
+- [`t54-labs/x402-secure`](https://github.com/t54-labs/x402-secure): Security-focused x402 tooling for trusted payment flows (Python)
+- [`t54-labs/tpay-sdk-python`](https://github.com/t54-labs/tpay-sdk-python): Comprehensive AI payment solution for real-world applications (Python)
+<!-- BUILDING:END -->
 
-> Refreshed hourly from public GitHub activity.
+## Public PR Trail
 
-<!-- STATS:START -->
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <br/>
-      <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan+is%3Aclosed">
-        <img src="https://img.shields.io/badge/39.7%25-2ea043?style=for-the-badge" />
-      </a><br/>
-      <sub><b>MERGE RATE</b></sub><br/>
-      <sub>119 / 300 closed</sub>
-      <br/><br/>
-    </td>
-    <td align="center" width="25%">
-      <br/>
-      <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan">
-        <img src="https://img.shields.io/badge/341-2f81f7?style=for-the-badge" />
-      </a><br/>
-      <sub><b>TOTAL PRS</b></sub><br/>
-      <sub>all time</sub>
-      <br/><br/>
-    </td>
-    <td align="center" width="25%">
-      <br/>
-      <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan+is%3Aopen">
-        <img src="https://img.shields.io/badge/41-f85149?style=for-the-badge" />
-      </a><br/>
-      <sub><b>IN FLIGHT</b></sub><br/>
-      <sub>open PRs</sub>
-      <br/><br/>
-    </td>
-    <td align="center" width="25%">
-      <br/>
-      <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan">
-        <img src="https://img.shields.io/badge/148-a371f7?style=for-the-badge" />
-      </a><br/>
-      <sub><b>REPOS TOUCHED</b></sub><br/>
-      <sub>via PRs</sub>
-      <br/><br/>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td>
-      <code>MERGED ███████░░░░░░░░░░░░░ 119</code><br/>
-      <code>OPEN   ██░░░░░░░░░░░░░░░░░░  41</code><br/>
-      <code>CLOSED ██████████████████░░ 300</code><br/>
-      <code>TOTAL  ████████████████████ 341</code>
-    </td>
-    <td valign="top">
-      <sub><b>30-day pulse</b><br/>2 PRs opened<br/>2 PRs merged</sub>
-      <br/><br/>
-      <sub>Updated 2026-06-14 22:39 UTC</sub>
-    </td>
-  </tr>
-</table>
-<!-- STATS:END -->
+<!-- CONTRIBUTING:START -->
+- [`camunda/camunda`](https://github.com/camunda/camunda): Recent PR: `fix(operate): disable sorting for Operation State column` (open)
+- [`helm/helm`](https://github.com/helm/helm): Recent PR: `[v3 backport] fix(action): guard nil RESTClientGetter in CRD install path` (merged)
+- [`t54-labs/x402-secure`](https://github.com/t54-labs/x402-secure): Recent PR: `Adapt x402 proxy Trustline calls to async` (open)
+- [`xdan/jodit`](https://github.com/xdan/jodit): Recent PR: `Fix cells popup 'delete' string config resolving to global delete command` (closed)
+- [`home-assistant/frontend`](https://github.com/home-assistant/frontend): Recent PR: `Clarify Matter iOS version requirement in add-device fallback` (merged)
+- [`google-gemini/gemini-cli`](https://github.com/google-gemini/gemini-cli): Recent PR: `docs: fix broken docs/architecture.md references` (closed)
+<!-- CONTRIBUTING:END -->
 
 ## Open Source Footprint
 
@@ -130,6 +64,21 @@ I build end-to-end systems across AI-native products, developer tooling, and age
 </table>
 <!-- OSS_SIGNAL:END -->
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=SergioChan&hide_border=true&theme=transparent" />
-</div>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=SergioChan&hide_border=true&theme=transparent" alt="GitHub contribution streak" />
+</p>
+
+<details>
+  <summary><strong>Toolchain surface</strong></summary>
+  <br />
+  <p>
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+    <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+    <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift" />
+  </p>
+</details>
