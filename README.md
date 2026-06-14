@@ -29,7 +29,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 - [`t54-labs/clawcredit-blockrun-gateway`](https://github.com/t54-labs/clawcredit-blockrun-gateway): Gateway layer for ClawCredit and BlockRun payment flows (TypeScript)
 - [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): x402scan - An x402 ecosystem explorer for the XRP Ledger (TypeScript)
 - [`t54-labs/x402-secure`](https://github.com/t54-labs/x402-secure): Security-focused x402 tooling for trusted payment flows (Python)
-- [`t54-labs/tpay-sdk-python`](https://github.com/t54-labs/tpay-sdk-python): Comprehensive AI payment solution for real-world applications (Python)
+- [`t54-labs/tpay-sdk-python`](https://github.com/t54-labs/tpay-sdk-python): Python SDK for integrating T54 payment capabilities
 <!-- BUILDING:END -->
 
 ## Public PR Trail
