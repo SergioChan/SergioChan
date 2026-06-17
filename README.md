@@ -35,12 +35,12 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
+- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Harden production admin and indexer paths` (merged)
 - [`t54-labs/x402-secure`](https://github.com/t54-labs/x402-secure): Recent PR: `Add XRPL facilitator internal x402 Secure risk gateway` (open)
 - [`camunda/camunda`](https://github.com/camunda/camunda): Recent PR: `fix(operate): disable sorting for Operation State column` (open)
 - [`helm/helm`](https://github.com/helm/helm): Recent PR: `[v3 backport] fix(action): guard nil RESTClientGetter in CRD install path` (merged)
 - [`xdan/jodit`](https://github.com/xdan/jodit): Recent PR: `Fix cells popup 'delete' string config resolving to global delete command` (closed)
 - [`home-assistant/frontend`](https://github.com/home-assistant/frontend): Recent PR: `Clarify Matter iOS version requirement in add-device fallback` (merged)
-- [`google-gemini/gemini-cli`](https://github.com/google-gemini/gemini-cli): Recent PR: `docs: fix broken docs/architecture.md references` (closed)
 <!-- CONTRIBUTING:END -->
 
 ## Open Source Footprint
@@ -54,11 +54,11 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="280">
       <strong>Contribution spread</strong><br />
-      <sub>148 public repositories touched via pull requests, 342 public PRs opened in total.</sub>
+      <sub>149 public repositories touched via pull requests, 343 public PRs opened in total.</sub>
     </td>
     <td width="280">
       <strong>Recent pace</strong><br />
-      <sub>3 public PRs opened and 1 merged in the last 30 days.</sub>
+      <sub>4 public PRs opened and 2 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
