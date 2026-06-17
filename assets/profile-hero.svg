@@ -104,19 +104,19 @@
   <g transform="translate(734 72)">
     <rect width="392" height="284" rx="26" fill="#0a1119" stroke="#2a3d48"/>
     <text x="28" y="42" class="micro accent">LIVE RADAR</text>
-    <text x="28" y="84" class="metric">39.9%</text>
+    <text x="28" y="84" class="metric">40.3%</text>
     <text x="28" y="110" class="micro">MERGE RATE</text>
     <rect x="28" y="142" width="206" height="10" rx="5" fill="#182632"/>
-    <rect x="28" y="142" width="72" height="10" rx="5" fill="#96e703"/>
+    <rect x="28" y="142" width="73" height="10" rx="5" fill="#96e703"/>
     <rect x="28" y="174" width="206" height="10" rx="5" fill="#182632"/>
     <rect x="28" y="174" width="25" height="10" rx="5" fill="#5fb2ff"/>
     <rect x="28" y="206" width="206" height="10" rx="5" fill="#182632"/>
     <rect x="28" y="206" width="153" height="10" rx="5" fill="#d6f76f"/>
-    <text x="250" y="151" class="small">120 merged</text>
+    <text x="250" y="151" class="small">122 merged</text>
     <text x="250" y="183" class="small">42 open</text>
     <text x="250" y="215" class="small">149 repos</text>
     <line x1="28" x2="364" y1="238" y2="238" class="hair"/>
-    <text x="28" y="268" class="small">4 PRs opened / 2 merged in 30d</text>
+    <text x="28" y="268" class="small">6 PRs opened / 4 merged in 30d</text>
   </g>
 
   <circle cx="1072" cy="92" r="5" class="pulse accent"/>
@@ -145,6 +145,6 @@
   </g>
 
   <line x1="64" x2="1138" y1="520" y2="520" class="hair"/>
-  <text x="64" y="542" class="small">UPDATED 2026-06-17 22:50 UTC</text>
+  <text x="64" y="542" class="small">UPDATED 2026-06-17 23:48 UTC</text>
   <text x="1138" y="542" text-anchor="end" class="small">SOURCE: PUBLIC GITHUB ACTIVITY</text>
 </svg>
