@@ -35,8 +35,8 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
+- [`t54-labs/x402-secure`](https://github.com/t54-labs/x402-secure): Recent PR: `Add XRPL facilitator internal x402 Secure risk gateway` (merged)
 - [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix search form submit handling` (merged)
-- [`t54-labs/x402-secure`](https://github.com/t54-labs/x402-secure): Recent PR: `Add XRPL facilitator internal x402 Secure risk gateway` (open)
 - [`camunda/camunda`](https://github.com/camunda/camunda): Recent PR: `fix(operate): disable sorting for Operation State column` (open)
 - [`helm/helm`](https://github.com/helm/helm): Recent PR: `[v3 backport] fix(action): guard nil RESTClientGetter in CRD install path` (merged)
 - [`xdan/jodit`](https://github.com/xdan/jodit): Recent PR: `Fix cells popup 'delete' string config resolving to global delete command` (closed)
@@ -58,7 +58,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="280">
       <strong>Recent pace</strong><br />
-      <sub>6 public PRs opened and 4 merged in the last 30 days.</sub>
+      <sub>6 public PRs opened and 5 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
