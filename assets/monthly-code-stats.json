@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-06-23T18:44:45.744Z",
+  "owner": "SergioChan",
+  "timeZone": "America/Los_Angeles",
+  "monthLabel": "June 2026",
+  "monthStart": "2026-06-01T07:00:00.000Z",
+  "monthEnd": "2026-07-01T07:00:00.000Z",
+  "repoCount": 14,
+  "privateRepoCount": 9,
+  "commitCount": 1607,
+  "nonMergeCommitCount": 1512,
+  "mergeCommitCount": 95,
+  "source": {
+    "additions": 333789,
+    "deletions": 37446,
+    "files": 4705,
+    "net": 296343
+  },
+  "engineering": {
+    "additions": 341194,
+    "deletions": 38496,
+    "files": 5135,
+    "net": 302698
+  },
+  "allFiles": {
+    "additions": 394591,
+    "deletions": 55865,
+    "files": 6496,
+    "net": 338726
+  },
+  "scope": "default-branch commits where author or committer matches profile owner",
+  "privateRepoNamesExcluded": true
+}

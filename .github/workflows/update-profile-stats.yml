@@ -2,7 +2,7 @@ name: Update Profile Stats
 
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '17 18 * * *'
   workflow_dispatch:
 
 permissions:
@@ -22,14 +22,16 @@ jobs:
 
       - name: Update README stats
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || github.token }}
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
           PROFILE_OWNER: SergioChan
+          PROFILE_TIME_ZONE: America/Los_Angeles
         run: node scripts/update-readme-stats.mjs
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/profile-hero.svg
+          git add README.md assets/profile-hero.svg assets/monthly-code-stats.json
           git diff --staged --quiet || git commit -m "chore: update profile stats"
           git push

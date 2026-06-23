@@ -29,7 +29,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 - [`t54-labs/clawcredit-blockrun-gateway`](https://github.com/t54-labs/clawcredit-blockrun-gateway): Gateway layer for ClawCredit and BlockRun payment flows (TypeScript)
 - [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): x402scan - An x402 ecosystem explorer for the XRP Ledger (TypeScript)
 - [`t54-labs/x402-secure`](https://github.com/t54-labs/x402-secure): Security-focused x402 tooling for trusted payment flows (Python)
-- [`t54-labs/tpay-sdk-python`](https://github.com/t54-labs/tpay-sdk-python): Python SDK for integrating T54 payment capabilities
+- [`t54-labs/tpay-sdk-python`](https://github.com/t54-labs/tpay-sdk-python): Comprehensive AI payment solution for real-world applications (Python)
 <!-- BUILDING:END -->
 
 ## Public PR Trail
@@ -48,15 +48,19 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 <!-- OSS_SIGNAL:START -->
 <table>
   <tr>
-    <td width="280">
+    <td width="210">
+      <strong>Current-month code</strong><br />
+      <sub>June 2026: 341.2K source + config lines added.</sub>
+    </td>
+    <td width="210">
       <strong>Public footprint</strong><br />
       <sub>296 public repos, 2.6K stars earned, 1.1K followers.</sub>
     </td>
-    <td width="280">
+    <td width="210">
       <strong>Contribution spread</strong><br />
       <sub>149 public repositories touched via pull requests, 345 public PRs opened in total.</sub>
     </td>
-    <td width="280">
+    <td width="210">
       <strong>Recent pace</strong><br />
       <sub>6 public PRs opened and 5 merged in the last 30 days.</sub>
     </td>
