@@ -269,7 +269,39 @@ function net(totals) {
   return totals.additions - totals.deletions;
 }
 
+function totalsWithNet(totals) {
+  return {
+    ...totals,
+    net: net(totals),
+  };
+}
+
+function createTotalsGroup() {
+  return {
+    source: createTotals(),
+    engineering: createTotals(),
+    allFiles: createTotals(),
+  };
+}
+
+function addFileToTotalsGroup(group, category, file) {
+  addFileToTotals(group.allFiles, file);
+  if (category === 'source') addFileToTotals(group.source, file);
+  if (category === 'source' || category === 'config') addFileToTotals(group.engineering, file);
+}
+
+function totalsGroupWithNet(group) {
+  return {
+    source: totalsWithNet(group.source),
+    engineering: totalsWithNet(group.engineering),
+    allFiles: totalsWithNet(group.allFiles),
+  };
+}
+
 function publicSnapshot(stats) {
+  const allCommits = totalsGroupWithNet(stats.allCommits);
+  const nonMerge = totalsGroupWithNet(stats.nonMerge);
+
   return {
     generatedAt: stats.generatedAt,
     owner: stats.owner,
@@ -282,17 +314,16 @@ function publicSnapshot(stats) {
     commitCount: stats.commitCount,
     nonMergeCommitCount: stats.nonMergeCommitCount,
     mergeCommitCount: stats.mergeCommitCount,
-    source: {
-      ...stats.source,
-      net: net(stats.source),
-    },
-    engineering: {
-      ...stats.engineering,
-      net: net(stats.engineering),
-    },
-    allFiles: {
-      ...stats.allFiles,
-      net: net(stats.allFiles),
+    source: allCommits.source,
+    engineering: allCommits.engineering,
+    allFiles: allCommits.allFiles,
+    allCommits,
+    nonMerge,
+    displayMetric: {
+      scope: 'all commits, all files',
+      additions: allCommits.allFiles.additions,
+      deletions: allCommits.allFiles.deletions,
+      net: allCommits.allFiles.net,
     },
     scope: 'default-branch commits where author or committer matches profile owner',
     privateRepoNamesExcluded: true,
@@ -360,11 +391,8 @@ export async function computeMonthlyCodeStats({
   const details = await fetchCommitDetailsWithWorkers(token, [...commits.values()], workerCount);
   const repoNames = new Set();
   const privateRepoNames = new Set();
-  const totals = {
-    source: createTotals(),
-    engineering: createTotals(),
-    allFiles: createTotals(),
-  };
+  const allCommits = createTotalsGroup();
+  const nonMerge = createTotalsGroup();
   let mergeCommitCount = 0;
   let nonMergeCommitCount = 0;
 
@@ -373,22 +401,24 @@ export async function computeMonthlyCodeStats({
     if (commit.repoPrivate) privateRepoNames.add(commit.repo);
 
     const isMerge = (commit.detail.parents?.length ?? 0) > 1;
-    if (isMerge) {
-      mergeCommitCount += 1;
-      continue;
+    const files = commit.detail.files ?? [];
+    const categorizedFiles = files.map((file) => ({
+      category: categoryForFile(file.filename),
+      additions: file.additions ?? 0,
+      deletions: file.deletions ?? 0,
+    }));
+
+    for (const file of categorizedFiles) {
+      addFileToTotalsGroup(allCommits, file.category, file);
     }
 
-    nonMergeCommitCount += 1;
-    for (const file of commit.detail.files ?? []) {
-      const category = categoryForFile(file.filename);
-      const item = {
-        additions: file.additions ?? 0,
-        deletions: file.deletions ?? 0,
-      };
-
-      addFileToTotals(totals.allFiles, item);
-      if (category === 'source') addFileToTotals(totals.source, item);
-      if (category === 'source' || category === 'config') addFileToTotals(totals.engineering, item);
+    if (isMerge) {
+      mergeCommitCount += 1;
+    } else {
+      nonMergeCommitCount += 1;
+      for (const file of categorizedFiles) {
+        addFileToTotalsGroup(nonMerge, file.category, file);
+      }
     }
   }
 
@@ -404,7 +434,8 @@ export async function computeMonthlyCodeStats({
     commitCount: commits.size,
     nonMergeCommitCount,
     mergeCommitCount,
-    ...totals,
+    allCommits,
+    nonMerge,
   };
 }
 
