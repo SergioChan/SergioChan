@@ -35,12 +35,12 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
+- [`Cacti/cacti`](https://github.com/Cacti/cacti): Recent PR: `fix(graph_view): use CACTI_PATH_URL in preview breadcrumb link` (merged)
 - [`pylint-dev/astroid`](https://github.com/pylint-dev/astroid): Recent PR: `helpers: simplify Uninferable type error message` (merged)
 - [`t54-labs/x402-secure`](https://github.com/t54-labs/x402-secure): Recent PR: `Add XRPL facilitator internal x402 Secure risk gateway` (merged)
 - [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix search form submit handling` (merged)
 - [`camunda/camunda`](https://github.com/camunda/camunda): Recent PR: `fix(operate): disable sorting for Operation State column` (open)
 - [`helm/helm`](https://github.com/helm/helm): Recent PR: `[v3 backport] fix(action): guard nil RESTClientGetter in CRD install path` (merged)
-- [`xdan/jodit`](https://github.com/xdan/jodit): Recent PR: `Fix cells popup 'delete' string config resolving to global delete command` (closed)
 <!-- CONTRIBUTING:END -->
 
 ## Open Source Footprint
@@ -50,7 +50,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month code</strong><br />
-      <sub>June 2026: 680.4K all-file lines added, merge commits included.</sub>
+      <sub>June 2026: 681.6K all-file lines added, merge commits included.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
