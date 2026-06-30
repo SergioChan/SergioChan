@@ -27,7 +27,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 
 <!-- BUILDING:START -->
 - [`t54-labs/clawcredit-blockrun-gateway`](https://github.com/t54-labs/clawcredit-blockrun-gateway): Gateway layer for ClawCredit and BlockRun payment flows (TypeScript)
-- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): x402scan - An x402 ecosystem explorer for the XRP Ledger (TypeScript)
+- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): XRPL-native x402 explorer and payment surface (TypeScript)
 - [`t54-labs/x402-secure`](https://github.com/t54-labs/x402-secure): Security-focused x402 tooling for trusted payment flows (Python)
 - [`t54-labs/tpay-sdk-python`](https://github.com/t54-labs/tpay-sdk-python): Comprehensive AI payment solution for real-world applications (Python)
 <!-- BUILDING:END -->
@@ -35,7 +35,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
-- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Sergio/x402 xrpl vi enrichment` (merged)
+- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Ripple feedback: Ship Faster links + hero Get Listed CTA` (merged)
 - [`baserow/baserow`](https://github.com/baserow/baserow): Recent PR: `Use sender domain for generated Message-ID headers` (closed)
 - [`Cacti/cacti`](https://github.com/Cacti/cacti): Recent PR: `fix(graph_view): use CACTI_PATH_URL in preview breadcrumb link` (merged)
 - [`pylint-dev/astroid`](https://github.com/pylint-dev/astroid): Recent PR: `helpers: simplify Uninferable type error message` (merged)
@@ -58,11 +58,11 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Contribution spread</strong><br />
-      <sub>149 public repositories touched via pull requests, 352 public PRs opened in total.</sub>
+      <sub>149 public repositories touched via pull requests, 353 public PRs opened in total.</sub>
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>13 public PRs opened and 12 merged in the last 30 days.</sub>
+      <sub>14 public PRs opened and 13 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
