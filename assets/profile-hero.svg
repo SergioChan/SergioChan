@@ -65,14 +65,14 @@
   <g transform="translate(64 252)">
     <rect width="660" height="214" rx="26" fill="url(#codeCard)" stroke="#314451"/>
     <rect x="24" y="24" width="64" height="5" rx="2.5" fill="#96e703"/>
-    <text x="24" y="58" class="micro accent">JUNE 2026 CODE WRITTEN</text>
-    <text x="24" y="148" class="mega">701.9K</text>
+    <text x="24" y="58" class="micro accent">JULY 2026 CODE WRITTEN</text>
+    <text x="24" y="148" class="mega">298</text>
     <text x="32" y="180" class="micro">LINES ADDED / ALL FILES</text>
-    <text x="382" y="77" class="small">ADDED +701.9K</text>
-    <text x="382" y="110" class="small">REMOVED -77.6K</text>
-    <text x="382" y="143" class="small">1782 COMMITS / 14 REPOS</text>
-    <text x="382" y="176" class="small">114 MERGE COMMITS INCLUDED</text>
-    <text x="382" y="199" class="small">9 PRIVATE REPOS INCLUDED</text>
+    <text x="382" y="77" class="small">ADDED +298</text>
+    <text x="382" y="110" class="small">REMOVED -75</text>
+    <text x="382" y="143" class="small">1 COMMITS / 1 REPOS</text>
+    <text x="382" y="176" class="small">1 MERGE COMMITS INCLUDED</text>
+    <text x="382" y="199" class="small">1 PRIVATE REPOS INCLUDED</text>
   </g>
 
   <g transform="translate(794 84)">
@@ -111,6 +111,6 @@
     </g>
 
   <line x1="64" x2="1138" y1="520" y2="520" class="hair"/>
-  <text x="64" y="542" class="small">UPDATED 2026-06-30 19:00 UTC</text>
+  <text x="64" y="542" class="small">UPDATED 2026-07-01 18:57 UTC</text>
   <text x="1138" y="542" text-anchor="end" class="small">SOURCE: PRIVATE + PUBLIC GITHUB ACTIVITY</text>
 </svg>
