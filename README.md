@@ -27,20 +27,20 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 
 <!-- BUILDING:START -->
 - [`t54-labs/clawcredit-blockrun-gateway`](https://github.com/t54-labs/clawcredit-blockrun-gateway): Gateway layer for ClawCredit and BlockRun payment flows (TypeScript)
-- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): XRPL-native x402 explorer and payment surface (TypeScript)
-- [`t54-labs/x402-secure`](https://github.com/t54-labs/x402-secure): Security-focused x402 tooling for trusted payment flows (Python)
+- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): The AI Hub for XRPL developers (TypeScript)
+- [`t54-labs/x402-secure`](https://github.com/t54-labs/x402-secure): Risk layer for the x402 protocol (Python)
 - [`t54-labs/tpay-sdk-python`](https://github.com/t54-labs/tpay-sdk-python): Comprehensive AI payment solution for real-world applications (Python)
 <!-- BUILDING:END -->
 
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
-- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Ripple feedback: Ship Faster links + hero Get Listed CTA` (merged)
+- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Resources: add Virtuals ACP with logo` (merged)
+- [`SergioChan/Argus`](https://github.com/SergioChan/Argus): Recent PR: `Add Argus roadmap core semantics slice` (merged)
 - [`baserow/baserow`](https://github.com/baserow/baserow): Recent PR: `Use sender domain for generated Message-ID headers` (closed)
 - [`Cacti/cacti`](https://github.com/Cacti/cacti): Recent PR: `fix(graph_view): use CACTI_PATH_URL in preview breadcrumb link` (merged)
 - [`pylint-dev/astroid`](https://github.com/pylint-dev/astroid): Recent PR: `helpers: simplify Uninferable type error message` (merged)
 - [`t54-labs/x402-secure`](https://github.com/t54-labs/x402-secure): Recent PR: `Add XRPL facilitator internal x402 Secure risk gateway` (merged)
-- [`camunda/camunda`](https://github.com/camunda/camunda): Recent PR: `fix(operate): disable sorting for Operation State column` (open)
 <!-- CONTRIBUTING:END -->
 
 ## Open Source Footprint
@@ -50,19 +50,19 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month code</strong><br />
-      <sub>July 2026: 298 all-file lines added, merge commits included.</sub>
+      <sub>July 2026: 64.8K all-file lines added, merge commits included.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
-      <sub>296 public repos, 2.6K stars earned, 1.1K followers.</sub>
+      <sub>297 public repos, 2.6K stars earned, 1.1K followers.</sub>
     </td>
     <td width="210">
       <strong>Contribution spread</strong><br />
-      <sub>149 public repositories touched via pull requests, 353 public PRs opened in total.</sub>
+      <sub>150 public repositories touched via pull requests, 355 public PRs opened in total.</sub>
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>14 public PRs opened and 13 merged in the last 30 days.</sub>
+      <sub>16 public PRs opened and 15 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
