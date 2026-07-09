@@ -35,12 +35,12 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
+- [`pockebot/openpocket`](https://github.com/pockebot/openpocket): Recent PR: `Add Codex and Claude Code phone-use integrations` (merged)
 - [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Top Merchants: top 5` (merged)
 - [`SergioChan/Argus`](https://github.com/SergioChan/Argus): Recent PR: `Add Argus roadmap core semantics slice` (merged)
 - [`baserow/baserow`](https://github.com/baserow/baserow): Recent PR: `Use sender domain for generated Message-ID headers` (closed)
 - [`Cacti/cacti`](https://github.com/Cacti/cacti): Recent PR: `fix(graph_view): use CACTI_PATH_URL in preview breadcrumb link` (merged)
 - [`pylint-dev/astroid`](https://github.com/pylint-dev/astroid): Recent PR: `helpers: simplify Uninferable type error message` (merged)
-- [`t54-labs/x402-secure`](https://github.com/t54-labs/x402-secure): Recent PR: `Add XRPL facilitator internal x402 Secure risk gateway` (merged)
 <!-- CONTRIBUTING:END -->
 
 ## Open Source Footprint
@@ -50,7 +50,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month code</strong><br />
-      <sub>July 2026: 174K all-file lines added, merge commits included.</sub>
+      <sub>July 2026: 180.2K all-file lines added, merge commits included.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
@@ -58,11 +58,11 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Contribution spread</strong><br />
-      <sub>150 public repositories touched via pull requests, 362 public PRs opened in total.</sub>
+      <sub>150 public repositories touched via pull requests, 363 public PRs opened in total.</sub>
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>22 public PRs opened and 21 merged in the last 30 days.</sub>
+      <sub>23 public PRs opened and 22 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
