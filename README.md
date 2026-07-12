@@ -46,7 +46,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month code</strong><br />
-      <sub>July 2026: 293.3K all-file lines added, merge commits included.</sub>
+      <sub>July 2026: 297K all-file lines added, merge commits included.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
