@@ -35,7 +35,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
-- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: retire stale-owner rows when a merchant rotates its payTo (#18)` (merged)
+- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: render the intent tooltip in a portal so the transactions table...` (merged)
 - [`pockebot/openpocket`](https://github.com/pockebot/openpocket): Recent PR: `Add native Codex and Claude Code phone-use plugins` (merged)
 <!-- CONTRIBUTING:END -->
 
@@ -46,7 +46,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month code</strong><br />
-      <sub>July 2026: 297K all-file lines added, merge commits included.</sub>
+      <sub>July 2026: 348.4K all-file lines added, merge commits included.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
@@ -54,11 +54,11 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Contribution spread</strong><br />
-      <sub>150 public repositories touched via pull requests, 384 public PRs opened in total.</sub>
+      <sub>150 public repositories touched via pull requests, 385 public PRs opened in total.</sub>
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>44 public PRs opened and 43 merged in the last 30 days.</sub>
+      <sub>44 public PRs opened and 44 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
