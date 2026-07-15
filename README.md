@@ -35,6 +35,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
+- [`humhub/humhub`](https://github.com/humhub/humhub): Recent PR: `Fix login maintenance custom text line break` (closed)
 - [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: render the intent tooltip in a portal so the transactions table...` (merged)
 - [`pockebot/openpocket`](https://github.com/pockebot/openpocket): Recent PR: `Add native Codex and Claude Code phone-use plugins` (merged)
 <!-- CONTRIBUTING:END -->
@@ -46,7 +47,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month code</strong><br />
-      <sub>July 2026: 360.8K all-file lines added, merge commits included.</sub>
+      <sub>July 2026: 382.5K all-file lines added, merge commits included.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
