@@ -60,7 +60,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>40 public PRs opened and 41 merged in the last 30 days.</sub>
+      <sub>40 public PRs opened and 40 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
