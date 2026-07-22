@@ -66,11 +66,11 @@
     <rect width="660" height="214" rx="26" fill="url(#codeCard)" stroke="#314451"/>
     <rect x="24" y="24" width="64" height="5" rx="2.5" fill="#96e703"/>
     <text x="24" y="58" class="micro accent">JULY 2026 CODE WRITTEN</text>
-    <text x="24" y="148" class="mega">920K</text>
+    <text x="24" y="148" class="mega">920.1K</text>
     <text x="32" y="180" class="micro">LINES ADDED / ALL FILES</text>
-    <text x="382" y="77" class="small">ADDED +920K</text>
+    <text x="382" y="77" class="small">ADDED +920.1K</text>
     <text x="382" y="110" class="small">REMOVED -96.2K</text>
-    <text x="382" y="143" class="small">1081 COMMITS / 13 REPOS</text>
+    <text x="382" y="143" class="small">1082 COMMITS / 13 REPOS</text>
     <text x="382" y="176" class="small">42 MERGE COMMITS INCLUDED</text>
     <text x="382" y="199" class="small">9 PRIVATE REPOS INCLUDED</text>
   </g>
@@ -111,6 +111,6 @@
     </g>
 
   <line x1="64" x2="1138" y1="520" y2="520" class="hair"/>
-  <text x="64" y="542" class="small">UPDATED 2026-07-21 18:47 UTC</text>
+  <text x="64" y="542" class="small">UPDATED 2026-07-22 18:44 UTC</text>
   <text x="1138" y="542" text-anchor="end" class="small">SOURCE: PRIVATE + PUBLIC GITHUB ACTIVITY</text>
 </svg>

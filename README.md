@@ -35,9 +35,9 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
+- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: Top Merchants showed all-time data under 24h tab and flaked to empty` (merged)
 - [`fastify/fastify-autoload`](https://github.com/fastify/fastify-autoload): Recent PR: `fix: add opt-in appendAutoPrefix for directory auto prefixes` (open)
 - [`humhub/humhub`](https://github.com/humhub/humhub): Recent PR: `Fix login maintenance custom text line break` (closed)
-- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: render the intent tooltip in a portal so the transactions table...` (merged)
 - [`pockebot/openpocket`](https://github.com/pockebot/openpocket): Recent PR: `Add native Codex and Claude Code phone-use plugins` (merged)
 <!-- CONTRIBUTING:END -->
 
@@ -48,7 +48,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month code</strong><br />
-      <sub>July 2026: 920K all-file lines added, merge commits included.</sub>
+      <sub>July 2026: 920.1K all-file lines added, merge commits included.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
@@ -56,11 +56,11 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Contribution spread</strong><br />
-      <sub>150 public repositories touched via pull requests, 385 public PRs opened in total.</sub>
+      <sub>150 public repositories touched via pull requests, 386 public PRs opened in total.</sub>
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>40 public PRs opened and 40 merged in the last 30 days.</sub>
+      <sub>41 public PRs opened and 41 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
