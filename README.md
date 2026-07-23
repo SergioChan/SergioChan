@@ -35,6 +35,8 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
+- [`IBM/openapi-validator`](https://github.com/IBM/openapi-validator): Recent PR: `fix: allow empty-string JSON keys when checking duplicate keys` (open)
+- [`666ghj/MiroFish`](https://github.com/666ghj/MiroFish): Recent PR: `fix: robust JSON extraction for mixed LLM responses` (closed)
 - [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: Top Merchants showed all-time data under 24h tab and flaked to empty` (merged)
 - [`fastify/fastify-autoload`](https://github.com/fastify/fastify-autoload): Recent PR: `fix: add opt-in appendAutoPrefix for directory auto prefixes` (open)
 - [`humhub/humhub`](https://github.com/humhub/humhub): Recent PR: `Fix login maintenance custom text line break` (closed)
@@ -48,7 +50,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month code</strong><br />
-      <sub>July 2026: 920.1K all-file lines added, merge commits included.</sub>
+      <sub>July 2026: 922.7K all-file lines added, merge commits included.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
