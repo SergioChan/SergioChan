@@ -35,12 +35,12 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
+- [`filebrowser/get`](https://github.com/filebrowser/get): Recent PR: `fix: detect riscv64 in installer arch mapping` (merged)
 - [`fastify/fastify-autoload`](https://github.com/fastify/fastify-autoload): Recent PR: `fix: add opt-in appendAutoPrefix for directory auto prefixes` (merged)
 - [`IBM/openapi-validator`](https://github.com/IBM/openapi-validator): Recent PR: `fix: allow empty-string JSON keys when checking duplicate keys` (open)
 - [`666ghj/MiroFish`](https://github.com/666ghj/MiroFish): Recent PR: `fix: robust JSON extraction for mixed LLM responses` (closed)
 - [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: Top Merchants showed all-time data under 24h tab and flaked to empty` (merged)
 - [`humhub/humhub`](https://github.com/humhub/humhub): Recent PR: `Fix login maintenance custom text line break` (closed)
-- [`pockebot/openpocket`](https://github.com/pockebot/openpocket): Recent PR: `Add native Codex and Claude Code phone-use plugins` (merged)
 <!-- CONTRIBUTING:END -->
 
 ## Open Source Footprint
@@ -50,7 +50,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month code</strong><br />
-      <sub>July 2026: 985.4K all-file lines added, merge commits included.</sub>
+      <sub>July 2026: 996.4K all-file lines added, merge commits included.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
@@ -62,7 +62,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>41 public PRs opened and 42 merged in the last 30 days.</sub>
+      <sub>41 public PRs opened and 44 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
