@@ -35,7 +35,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
-- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: keep the Korean engineering FAQ in its technical register` (merged)
+- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Copy: apply the KR team's Korean proofread across the site` (merged)
 - [`magda-io/magda`](https://github.com/magda-io/magda): Recent PR: `helm: use global.dbUser fallback for external DB migrator user` (closed)
 - [`t54-labs/agent-commons`](https://github.com/t54-labs/agent-commons): Recent PR: `Add atomic remote lease renewal` (merged)
 - [`filebrowser/get`](https://github.com/filebrowser/get): Recent PR: `fix: detect riscv64 in installer arch mapping` (merged)
@@ -58,11 +58,11 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Contribution spread</strong><br />
-      <sub>151 public repositories touched via pull requests, 391 public PRs opened in total.</sub>
+      <sub>151 public repositories touched via pull requests, 392 public PRs opened in total.</sub>
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>38 public PRs opened and 41 merged in the last 30 days.</sub>
+      <sub>39 public PRs opened and 42 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>

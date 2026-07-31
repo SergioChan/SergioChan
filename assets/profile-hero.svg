@@ -69,9 +69,9 @@
     <text x="24" y="148" class="mega">1.23M</text>
     <text x="32" y="180" class="micro">LINES ADDED / ALL FILES</text>
     <text x="382" y="77" class="small">ADDED +1.23M</text>
-    <text x="382" y="110" class="small">REMOVED -118K</text>
-    <text x="382" y="143" class="small">1419 COMMITS / 19 REPOS</text>
-    <text x="382" y="176" class="small">62 MERGE COMMITS INCLUDED</text>
+    <text x="382" y="110" class="small">REMOVED -118.3K</text>
+    <text x="382" y="143" class="small">1428 COMMITS / 19 REPOS</text>
+    <text x="382" y="176" class="small">64 MERGE COMMITS INCLUDED</text>
     <text x="382" y="199" class="small">14 PRIVATE REPOS INCLUDED</text>
   </g>
 
@@ -111,6 +111,6 @@
     </g>
 
   <line x1="64" x2="1138" y1="520" y2="520" class="hair"/>
-  <text x="64" y="542" class="small">UPDATED 2026-07-30 18:50 UTC</text>
+  <text x="64" y="542" class="small">UPDATED 2026-07-31 18:51 UTC</text>
   <text x="1138" y="542" text-anchor="end" class="small">SOURCE: PRIVATE + PUBLIC GITHUB ACTIVITY</text>
 </svg>
