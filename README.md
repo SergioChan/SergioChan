@@ -35,12 +35,12 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
-- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Copy: fix four small proofreading nits in the Korean FAQ` (merged)
+- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: stop /dashboard proxy 500s from cold wide-window aggregates` (merged)
+- [`boa-dev/boa`](https://github.com/boa-dev/boa): Recent PR: `cli: return non-zero for uncaught runtime exceptions` (closed)
 - [`t54-labs/agent-commons`](https://github.com/t54-labs/agent-commons): Recent PR: `feat: sync Commons 0.4 identity and Console` (merged)
 - [`magda-io/magda`](https://github.com/magda-io/magda): Recent PR: `helm: use global.dbUser fallback for external DB migrator user` (closed)
 - [`filebrowser/get`](https://github.com/filebrowser/get): Recent PR: `fix: detect riscv64 in installer arch mapping` (merged)
 - [`fastify/fastify-autoload`](https://github.com/fastify/fastify-autoload): Recent PR: `fix: add opt-in appendAutoPrefix for directory auto prefixes` (merged)
-- [`IBM/openapi-validator`](https://github.com/IBM/openapi-validator): Recent PR: `fix: allow empty-string JSON keys when checking duplicate keys` (open)
 <!-- CONTRIBUTING:END -->
 
 ## Open Source Footprint
@@ -50,19 +50,19 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month code</strong><br />
-      <sub>August 2026: 9.4K all-file lines added, merge commits included.</sub>
+      <sub>August 2026: 19.2K all-file lines added, merge commits included.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
-      <sub>298 public repos, 2.6K stars earned, 1.1K followers.</sub>
+      <sub>299 public repos, 2.6K stars earned, 1.1K followers.</sub>
     </td>
     <td width="210">
       <strong>Contribution spread</strong><br />
-      <sub>151 public repositories touched via pull requests, 395 public PRs opened in total.</sub>
+      <sub>151 public repositories touched via pull requests, 396 public PRs opened in total.</sub>
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>40 public PRs opened and 43 merged in the last 30 days.</sub>
+      <sub>41 public PRs opened and 44 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
