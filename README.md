@@ -35,7 +35,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
-- [`t54-labs/agent-commons`](https://github.com/t54-labs/agent-commons): Recent PR: `Add first-class Cline CLI support` (open)
+- [`t54-labs/agent-commons`](https://github.com/t54-labs/agent-commons): Recent PR: `Sync Agent hover profiles and sprite grounding` (open)
 - [`TheCraigHewitt/seomachine`](https://github.com/TheCraigHewitt/seomachine): Recent PR: `docs: clarify fork vs upstream clone` (merged)
 - [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: stop /dashboard proxy 500s from cold wide-window aggregates` (merged)
 - [`boa-dev/boa`](https://github.com/boa-dev/boa): Recent PR: `cli: return non-zero for uncaught runtime exceptions` (closed)
@@ -50,7 +50,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month code</strong><br />
-      <sub>August 2026: 96.6K all-file lines added, merge commits included.</sub>
+      <sub>August 2026: 117K all-file lines added, merge commits included.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
@@ -62,7 +62,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>43 public PRs opened and 45 merged in the last 30 days.</sub>
+      <sub>43 public PRs opened and 46 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
