@@ -35,12 +35,12 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
-- [`t54-labs/agent-commons`](https://github.com/t54-labs/agent-commons): Recent PR: `Sync Agent hover profiles and sprite grounding` (open)
+- [`pallets/click`](https://github.com/pallets/click): Recent PR: `Fix error message for invalid single-dash multichar options` (closed)
+- [`t54-labs/agent-commons`](https://github.com/t54-labs/agent-commons): Recent PR: `Sync Agent hover profiles and sprite grounding` (merged)
 - [`TheCraigHewitt/seomachine`](https://github.com/TheCraigHewitt/seomachine): Recent PR: `docs: clarify fork vs upstream clone` (merged)
 - [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: stop /dashboard proxy 500s from cold wide-window aggregates` (merged)
 - [`boa-dev/boa`](https://github.com/boa-dev/boa): Recent PR: `cli: return non-zero for uncaught runtime exceptions` (closed)
 - [`magda-io/magda`](https://github.com/magda-io/magda): Recent PR: `helm: use global.dbUser fallback for external DB migrator user` (closed)
-- [`filebrowser/get`](https://github.com/filebrowser/get): Recent PR: `fix: detect riscv64 in installer arch mapping` (merged)
 <!-- CONTRIBUTING:END -->
 
 ## Open Source Footprint
@@ -50,7 +50,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month code</strong><br />
-      <sub>August 2026: 117K all-file lines added, merge commits included.</sub>
+      <sub>August 2026: 145.7K all-file lines added, merge commits included.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
@@ -62,7 +62,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>43 public PRs opened and 46 merged in the last 30 days.</sub>
+      <sub>36 public PRs opened and 40 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
