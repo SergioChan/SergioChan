@@ -50,7 +50,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month code</strong><br />
-      <sub>August 2026: 202K all-file lines added, merge commits included.</sub>
+      <sub>August 2026: 236.9K all-file lines added, merge commits included.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
@@ -62,7 +62,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>34 public PRs opened and 38 merged in the last 30 days.</sub>
+      <sub>14 public PRs opened and 18 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
