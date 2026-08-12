@@ -1,0 +1,331 @@
+// Synthwave / neon build-telemetry hero for the SergioChan profile.
+// Rendered to a self-contained animated SVG and committed by CI, so the
+// profile never depends on a third-party image being up at page-load time.
+// All motion is CSS keyframes guarded by prefers-reduced-motion, so the
+// static frame is a complete, legible image on its own.
+
+const PALETTE = {
+  ink0: '#08030f',
+  ink1: '#140b2e',
+  sky0: '#1a0b3d',
+  sky1: '#3b0f5e',
+  horizon: '#ff2e97',
+  cyan: '#05d9e8',
+  pink: '#ff2e97',
+  purple: '#8c1eff',
+  amber: '#ffd319',
+  text: '#f6f0ff',
+  muted: '#9a86c9',
+  faint: '#6a5a99',
+  panel: '#170c33',
+  line: '#3a2168',
+};
+
+function escapeXml(value) {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+function formatCompact(value) {
+  return new Intl.NumberFormat('en-US', { notation: 'compact', maximumFractionDigits: 1 }).format(value ?? 0);
+}
+
+function formatVolume(value) {
+  const v = Number(value) || 0;
+  if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(2).replace(/\.?0+$/, '')}M`;
+  if (v >= 1_000) return `${(v / 1_000).toFixed(1).replace(/\.0$/, '')}K`;
+  return String(v);
+}
+
+// ---- decorative element builders -------------------------------------------
+
+function renderStars() {
+  // Deterministic pseudo-random sky (no Math.random so CI output is stable).
+  const out = [];
+  let seed = 1337;
+  const rnd = () => {
+    seed = (seed * 1103515245 + 12345) & 0x7fffffff;
+    return seed / 0x7fffffff;
+  };
+  for (let i = 0; i < 46; i += 1) {
+    const x = Math.round(rnd() * 1200);
+    const y = Math.round(rnd() * 380);
+    const r = (rnd() * 1.4 + 0.4).toFixed(2);
+    const delay = (rnd() * 3).toFixed(2);
+    const dur = (rnd() * 2 + 2).toFixed(2);
+    out.push(
+      `<circle class="twinkle" cx="${x}" cy="${y}" r="${r}" fill="#fff" style="animation-delay:${delay}s;animation-duration:${dur}s"/>`,
+    );
+  }
+  return out.join('');
+}
+
+function renderGrid({ horizonY = 430, bottom = 600, cx = 600, spacing = 20 }) {
+  const verticals = [];
+  for (let x = -720; x <= 1920; x += 120) {
+    verticals.push(`<line x1="${cx}" y1="${horizonY}" x2="${x}" y2="${bottom}"/>`);
+  }
+  const horizontals = [];
+  for (let y = horizonY - spacing; y <= bottom + spacing; y += spacing) {
+    horizontals.push(`<line x1="-40" y1="${y}" x2="1240" y2="${y}"/>`);
+  }
+  return `
+    <g clip-path="url(#floorClip)" filter="url(#gridGlow)">
+      <g stroke="${PALETTE.purple}" stroke-width="1" opacity="0.55">${verticals.join('')}</g>
+      <g class="grid-scroll" stroke="${PALETTE.cyan}" stroke-width="1.4" opacity="0.7" style="transform-box:view-box">
+        ${horizontals.join('')}
+      </g>
+    </g>`;
+}
+
+function renderParticles() {
+  const out = [];
+  const xs = [120, 250, 360, 470, 560, 660, 760, 900, 1020, 1120];
+  for (let i = 0; i < xs.length; i += 1) {
+    const delay = (i * 0.7).toFixed(2);
+    const dur = (6 + (i % 4)).toFixed(2);
+    const c = i % 2 ? PALETTE.cyan : PALETTE.pink;
+    out.push(
+      `<circle class="particle" cx="${xs[i]}" cy="600" r="1.8" fill="${c}" style="animation-delay:${delay}s;animation-duration:${dur}s"/>`,
+    );
+  }
+  return out.join('');
+}
+
+function statChip({ x, y, label, value, tone }) {
+  return `
+    <g class="chip" transform="translate(${x} ${y})" style="transform-box:fill-box">
+      <rect width="128" height="82" rx="14" fill="#140a2c" fill-opacity="0.97" stroke="${tone}" stroke-opacity="0.7"/>
+      <rect x="0" y="0" width="128" height="3" rx="1.5" fill="${tone}"/>
+      <text x="16" y="46" class="chipNum" fill="${PALETTE.text}">${escapeXml(value)}</text>
+      <text x="16" y="66" class="chipLbl" fill="${tone}">${escapeXml(label)}</text>
+    </g>`;
+}
+
+// ---- main -------------------------------------------------------------------
+
+export function renderProfileHero(data = {}) {
+  const {
+    name = 'Sergio Chan',
+    monthLabel = 'This Month',
+    additions = 0,
+    deletions = 0,
+    commitCount = 0,
+    repoCount = 0,
+    privateRepoCount = 0,
+    metricLabel = 'LINES ADDED · ALL FILES',
+    metricNote = 'INCL. ASSETS · DOCS · GENERATED · MERGES',
+    publicRepos = 0,
+    stars = 0,
+    followers = 0,
+    totalPRs = 0,
+    merged30d = 0,
+    updatedAt = '',
+  } = data;
+
+  const headline = formatVolume(additions);
+  const added = `+${formatVolume(additions)}`;
+  const removed = `-${formatVolume(deletions)}`;
+  const scope = `${commitCount} COMMITS · ${repoCount} REPOS · ${privateRepoCount} PRIVATE`;
+  const monthUpper = monthLabel.toUpperCase();
+  const labelLine = `${metricLabel} · ${monthUpper}`;
+
+  const tickerItems = [
+    'OPENPOCKET', 'T54-LABS', 'X402-XRPL', 'TPAY-SDK', 'CLAWCREDIT',
+    'AGENTIC FINANCE', 'PAYMENT RAILS', 'VR / AR', 'EMBEDDED', 'RCT-AI', 'HACKBUSTER',
+  ];
+  const tickerText = tickerItems.join('    ◆    ');
+  const tickerRun = `${tickerText}    ◆    `;
+
+  const nameChars = escapeXml(name.toUpperCase());
+
+  return `<!-- Generated by scripts/update-readme-stats.mjs -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="t d" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+  <title id="t">${escapeXml(name)} — build telemetry</title>
+  <desc id="d">Synthwave profile hero for ${escapeXml(name)}: ${escapeXml(monthLabel)} ${escapeXml(headline)} lines added across all files, ${escapeXml(String(publicRepos))} public repos, ${escapeXml(formatCompact(stars))} stars, ${escapeXml(formatCompact(followers))} followers, ${escapeXml(String(totalPRs))} public PRs.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="${PALETTE.ink0}"/>
+      <stop offset="42%" stop-color="${PALETTE.sky0}"/>
+      <stop offset="72%" stop-color="${PALETTE.sky1}"/>
+      <stop offset="100%" stop-color="${PALETTE.ink0}"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="${PALETTE.amber}"/>
+      <stop offset="48%" stop-color="#ff5db1"/>
+      <stop offset="100%" stop-color="${PALETTE.purple}"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdf6ff"/>
+      <stop offset="46%" stop-color="#ffa8dd"/>
+      <stop offset="56%" stop-color="${PALETTE.pink}"/>
+      <stop offset="100%" stop-color="${PALETTE.purple}"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c1040" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#120830" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="50%" cy="42%" r="75%">
+      <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="1200" height="600" rx="28"/></clipPath>
+    <clipPath id="floorClip"><rect x="0" y="430" width="1200" height="170"/></clipPath>
+    <clipPath id="sunClip"><circle cx="892" cy="185" r="122"/></clipPath>
+    <clipPath id="headlineClip"><rect x="40" y="316" width="360" height="120"/></clipPath>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowSoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="gridGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="sunGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#000" opacity="0"/>
+      <rect width="4" height="1" fill="#000" opacity="0.18"/>
+    </pattern>
+    <style>
+      .kicker { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 15px; font-weight: 700; letter-spacing: 3px; fill: ${PALETTE.cyan}; }
+      .name { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; font-size: 92px; font-weight: 900; font-style: italic; letter-spacing: 1px; }
+      .roles { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; font-size: 21px; font-weight: 800; letter-spacing: 2px; fill: ${PALETTE.text}; }
+      .tag { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 15px; font-weight: 600; letter-spacing: 1.5px; fill: ${PALETTE.muted}; }
+      .hLabel { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 14px; font-weight: 800; letter-spacing: 2px; fill: ${PALETTE.cyan}; }
+      .hNum { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 84px; font-weight: 900; fill: ${PALETTE.text}; }
+      .hMeta { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; font-weight: 700; letter-spacing: 0.5px; fill: ${PALETTE.muted}; }
+      .hFine { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; font-weight: 700; letter-spacing: 1px; fill: ${PALETTE.faint}; }
+      .chipNum { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 28px; font-weight: 800; }
+      .chipLbl { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 10px; font-weight: 800; letter-spacing: 1.5px; }
+      .tick { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; font-weight: 800; letter-spacing: 2px; fill: ${PALETTE.cyan}; }
+      .foot { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; fill: ${PALETTE.faint}; }
+      @media (prefers-reduced-motion: no-preference) {
+        .twinkle { animation: tw 3s ease-in-out infinite; }
+        .sun { animation: sunp 5s ease-in-out infinite; transform-origin: 892px 185px; transform-box: view-box; }
+        .grid-scroll { animation: gscroll 1.8s linear infinite; }
+        .scanline { animation: scanmove 7s linear infinite; }
+        .flick { animation: flick 6s steps(1) infinite; }
+        .g-cyan { animation: gc 4.6s steps(1) infinite; }
+        .g-pink { animation: gp 4.6s steps(1) infinite; }
+        .sweep { animation: sweepx 3.4s ease-in-out infinite; }
+        .chip { animation: chipp 3.4s ease-in-out infinite; }
+        .caret { animation: caret 1.05s steps(1) infinite; }
+        .ticker { animation: tickx 22s linear infinite; }
+        .barfill { animation: bar 3.4s ease-in-out infinite; transform-origin: left center; transform-box: fill-box; }
+        .particle { animation: rise 7s linear infinite; }
+        .beat { animation: beat 2.6s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      }
+      @keyframes tw { 0%,100% { opacity:.15 } 50% { opacity:1 } }
+      @keyframes sunp { 0%,100% { opacity:.92; transform:scale(1) } 50% { opacity:1; transform:scale(1.015) } }
+      @keyframes gscroll { from { transform:translateY(0) } to { transform:translateY(20px) } }
+      @keyframes scanmove { from { transform:translateY(-600px) } to { transform:translateY(600px) } }
+      @keyframes flick { 0%,100%{opacity:1} 41%{opacity:1} 42%{opacity:.35} 43%{opacity:1} 61%{opacity:1} 62%{opacity:.5} 63%{opacity:1} }
+      @keyframes gc { 0%,100%{transform:translate(0,0)} 40%{transform:translate(0,0)} 41%{transform:translate(-3px,1px)} 43%{transform:translate(0,0)} 62%{transform:translate(2px,-1px)} 64%{transform:translate(0,0)} }
+      @keyframes gp { 0%,100%{transform:translate(0,0)} 40%{transform:translate(0,0)} 41%{transform:translate(3px,-1px)} 43%{transform:translate(0,0)} 62%{transform:translate(-2px,1px)} 64%{transform:translate(0,0)} }
+      @keyframes sweepx { 0%{transform:translateX(-320px)} 55%,100%{transform:translateX(360px)} }
+      @keyframes chipp { 0%,100%{opacity:.9} 50%{opacity:1} }
+      @keyframes caret { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+      @keyframes tickx { from { transform:translateX(0) } to { transform:translateX(-1180px) } }
+      @keyframes bar { 0%,100%{transform:scaleX(.55)} 50%{transform:scaleX(1)} }
+      @keyframes rise { 0%{transform:translateY(0);opacity:0} 12%{opacity:.9} 100%{transform:translateY(-360px);opacity:0} }
+      @keyframes beat { 0%,100%{transform:scale(1);opacity:.85} 50%{transform:scale(1.35);opacity:1} }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="600" fill="url(#sky)"/>
+    <g>${renderStars()}</g>
+
+    <!-- neon sun -->
+    <g filter="url(#sunGlow)">
+      <circle class="sun" cx="892" cy="185" r="122" fill="url(#sun)"/>
+    </g>
+    <g clip-path="url(#sunClip)">
+      <g fill="${PALETTE.ink0}" opacity="0.9">
+        <rect x="742" y="210" width="300" height="3"/>
+        <rect x="742" y="228" width="300" height="4"/>
+        <rect x="742" y="248" width="300" height="6"/>
+        <rect x="742" y="270" width="300" height="9"/>
+        <rect x="742" y="294" width="300" height="11"/>
+      </g>
+    </g>
+
+    <!-- floor -->
+    ${renderGrid({ horizonY: 430, bottom: 600, cx: 600, spacing: 20 })}
+    <rect x="0" y="426" width="1200" height="3" fill="${PALETTE.pink}" filter="url(#glow)" opacity="0.9"/>
+    <g>${renderParticles()}</g>
+
+    <!-- CRT scanlines + vignette -->
+    <rect width="1200" height="600" fill="url(#scan)" opacity="0.6"/>
+    <rect class="scanline" x="0" y="0" width="1200" height="120" fill="${PALETTE.cyan}" opacity="0.05"/>
+    <rect width="1200" height="600" fill="url(#vignette)"/>
+
+    <!-- header -->
+    <text x="64" y="74" class="kicker">SERGIO.OS  //  BUILD TELEMETRY<tspan class="caret" dx="6" fill="${PALETTE.pink}">_</tspan></text>
+
+    <!-- glitch name -->
+    <g filter="url(#glowSoft)">
+      <text class="name g-cyan" x="62" y="182" fill="${PALETTE.cyan}" opacity="0.85">${nameChars}</text>
+      <text class="name g-pink" x="62" y="182" fill="${PALETTE.pink}" opacity="0.85">${nameChars}</text>
+      <text class="name flick" x="62" y="182" fill="url(#chrome)">${nameChars}</text>
+    </g>
+    <text x="66" y="222" class="roles">FULL-STACK HACKER<tspan fill="${PALETTE.pink}"> · </tspan>FOUNDER<tspan fill="${PALETTE.pink}"> · </tspan>HARDCORE GAMER</text>
+    <text x="66" y="252" class="tag">AI-native products · payment rails · agentic systems</text>
+
+    <!-- build-output centerpiece -->
+    <g transform="translate(40 300)">
+      <rect width="660" height="150" rx="20" fill="url(#panel)" stroke="${PALETTE.pink}" stroke-opacity="0.55"/>
+      <rect x="0" y="0" width="660" height="150" rx="20" fill="none" stroke="${PALETTE.cyan}" stroke-opacity="0.18"/>
+      <circle class="beat" cx="26" cy="30" r="5" fill="${PALETTE.pink}"/>
+      <text x="44" y="35" class="hLabel">${escapeXml(labelLine)}</text>
+      <g clip-path="url(#headlineClip)" transform="translate(-40 -300)">
+        <text x="60" y="410" class="hNum" filter="url(#glowSoft)">${escapeXml(headline)}</text>
+        <rect class="sweep" x="60" y="336" width="150" height="76" fill="url(#sweep)" opacity="0.5"/>
+      </g>
+      <text x="372" y="62" class="hMeta" fill="${PALETTE.cyan}">ADDED  ${escapeXml(added)}</text>
+      <text x="372" y="86" class="hMeta" fill="${PALETTE.pink}">REMOVED  ${escapeXml(removed)}</text>
+      <text x="372" y="110" class="hMeta">${escapeXml(scope)}</text>
+      <text x="44" y="132" class="hFine">${escapeXml(metricNote)}</text>
+      <rect x="24" y="140" width="612" height="3" rx="1.5" fill="${PALETTE.line}"/>
+      <rect class="barfill" x="24" y="140" width="612" height="3" rx="1.5" fill="${PALETTE.cyan}" filter="url(#glowSoft)"/>
+    </g>
+
+    <!-- stat chips -->
+    ${statChip({ x: 710, y: 300, label: 'PUBLIC REPOS', value: String(publicRepos), tone: PALETTE.cyan })}
+    ${statChip({ x: 850, y: 300, label: 'STARS', value: formatCompact(stars), tone: PALETTE.amber })}
+    ${statChip({ x: 990, y: 300, label: 'FOLLOWERS', value: formatCompact(followers), tone: PALETTE.pink })}
+    ${statChip({ x: 710, y: 392, label: 'PRS MERGED / 30D', value: String(merged30d), tone: PALETTE.pink })}
+    ${statChip({ x: 850, y: 392, label: 'TOTAL PUBLIC PRS', value: String(totalPRs), tone: PALETTE.cyan })}
+    ${statChip({ x: 990, y: 392, label: 'ORGS / LABS', value: 't54', tone: PALETTE.purple })}
+
+    <!-- ticker -->
+    <rect x="0" y="486" width="1200" height="30" fill="${PALETTE.ink1}" fill-opacity="0.72"/>
+    <line x1="0" y1="486" x2="1200" y2="486" stroke="${PALETTE.pink}" stroke-opacity="0.5"/>
+    <g clip-path="url(#card)">
+      <g class="ticker">
+        <text x="20" y="506" class="tick">${escapeXml(tickerRun)}${escapeXml(tickerRun)}</text>
+      </g>
+    </g>
+
+    <!-- footer -->
+    <text x="64" y="560" class="foot">UPDATED ${escapeXml(updatedAt)}</text>
+    <text x="1136" y="560" text-anchor="end" class="foot">SOURCE: PUBLIC + PRIVATE GITHUB ACTIVITY</text>
+    <rect x="0" y="0" width="1200" height="600" rx="28" fill="none" stroke="${PALETTE.pink}" stroke-opacity="0.35"/>
+  </g>
+</svg>
+`;
+}
+
+export { formatCompact, formatVolume };

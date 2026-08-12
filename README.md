@@ -1,6 +1,6 @@
 <!-- HERO:START -->
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="SergioChan profile command center" width="100%" />
+  <img src="./assets/profile-hero.svg" alt="Sergio Chan — build telemetry. August 2026: 325.8K lines added across all files; 300 public repos, 2.6K stars, 1.1K followers, 398 public PRs." width="100%" />
 </p>
 <!-- HERO:END -->
 
@@ -9,7 +9,7 @@
   &nbsp;/&nbsp;
   <a href="https://github.com/t54-labs"><strong>t54-labs</strong></a>
   &nbsp;/&nbsp;
-  <a href="https://github.com/pulls?q=is%3Apr+author%3ASergioChan"><strong>public PR trail</strong></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3ASergioChan&type=pullrequests"><strong>public PR trail</strong></a>
 </p>
 
 ## Operating Thesis
@@ -49,8 +49,8 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 <table>
   <tr>
     <td width="210">
-      <strong>Current-month code</strong><br />
-      <sub>August 2026: 325.8K all-file lines added, merge commits included.</sub>
+      <strong>Current-month output</strong><br />
+      <sub>August 2026: 325.8K lines added across all files — incl. assets, docs, generated code &amp; merges.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
@@ -69,20 +69,18 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 <!-- OSS_SIGNAL:END -->
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=SergioChan&hide_border=true&theme=transparent" alt="GitHub contribution streak" />
+  <img src="https://streak-stats.demolab.com?user=SergioChan&hide_border=true&background=140b2e&border=2a1a4a&stroke=ff2e97&ring=05d9e8&fire=ff2e97&currStreakNum=f6f0ff&currStreakLabel=05d9e8&sideNums=f6f0ff&sideLabels=9a86c9&dates=6a5a99" alt="GitHub contribution streak for SergioChan" />
 </p>
 
-<details>
-  <summary><strong>Toolchain surface</strong></summary>
-  <br />
-  <p>
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-    <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-    <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift" />
-  </p>
-</details>
+## Toolchain
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-ff2e97?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Node.js-8c1eff?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Go-ff2e97?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/Python-8c1eff?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Rust-ff2e97?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Docker-8c1eff?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/PostgreSQL-ff2e97?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Swift-8c1eff?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
+</p>
