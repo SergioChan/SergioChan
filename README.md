@@ -1,6 +1,6 @@
 <!-- HERO:START -->
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="Sergio Chan — build telemetry. August 2026: 325.8K lines added across all files; 300 public repos, 2.6K stars, 1.1K followers, 398 public PRs." width="100%" />
+  <img src="./assets/profile-hero.svg" alt="Sergio Chan — build telemetry. August 2026: 344.9K lines added across all files; 300 public repos, 2.6K stars, 1.1K followers, 399 public PRs." width="100%" />
 </p>
 <!-- HERO:END -->
 
@@ -29,18 +29,18 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 - [`t54-labs/clawcredit-blockrun-gateway`](https://github.com/t54-labs/clawcredit-blockrun-gateway): Gateway layer for ClawCredit and BlockRun payment flows (TypeScript)
 - [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): The AI Hub for XRPL developers (TypeScript)
 - [`t54-labs/x402-secure`](https://github.com/t54-labs/x402-secure): Risk layer for the x402 protocol (Python)
-- [`t54-labs/tpay-sdk-python`](https://github.com/t54-labs/tpay-sdk-python): Comprehensive AI payment solution for real-world applications (Python)
+- [`t54-labs/tpay-sdk-python`](https://github.com/t54-labs/tpay-sdk-python): Comprehensive AI payment solution for real\-world applications (Python)
 <!-- BUILDING:END -->
 
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
-- [`pallets/click`](https://github.com/pallets/click): Recent PR: `Fix error message for invalid single-dash multichar options` (closed)
+- [`SergioChan/SergioChan`](https://github.com/SergioChan/SergioChan): Recent PR: `Synthwave neon profile hero \+ honest all\-files metric` (merged)
+- [`pallets/click`](https://github.com/pallets/click): Recent PR: `Fix error message for invalid single\-dash multichar options` (closed)
 - [`t54-labs/agent-commons`](https://github.com/t54-labs/agent-commons): Recent PR: `Sync Agent hover profiles and sprite grounding` (merged)
 - [`TheCraigHewitt/seomachine`](https://github.com/TheCraigHewitt/seomachine): Recent PR: `docs: clarify fork vs upstream clone` (merged)
-- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: stop /dashboard proxy 500s from cold wide-window aggregates` (merged)
-- [`boa-dev/boa`](https://github.com/boa-dev/boa): Recent PR: `cli: return non-zero for uncaught runtime exceptions` (closed)
-- [`magda-io/magda`](https://github.com/magda-io/magda): Recent PR: `helm: use global.dbUser fallback for external DB migrator user` (closed)
+- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: stop /dashboard proxy 500s from cold wide\-window aggregates` (merged)
+- [`boa-dev/boa`](https://github.com/boa-dev/boa): Recent PR: `cli: return non\-zero for uncaught runtime exceptions` (closed)
 <!-- CONTRIBUTING:END -->
 
 ## Open Source Footprint
@@ -50,7 +50,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month output</strong><br />
-      <sub>August 2026: 325.8K lines added across all files — incl. assets, docs, generated code &amp; merges.</sub>
+      <sub>August 2026: 344.9K lines added across all files — incl. assets, docs, generated code &amp; merges.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
@@ -58,7 +58,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Contribution spread</strong><br />
-      <sub>151 public repositories touched via pull requests, 398 public PRs opened in total.</sub>
+      <sub>152 public repositories touched via pull requests, 399 public PRs opened in total.</sub>
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
