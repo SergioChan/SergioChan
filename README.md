@@ -1,6 +1,6 @@
 <!-- HERO:START -->
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="Sergio Chan — build telemetry. August 2026: 344.9K lines added across all files; 300 public repos, 2.6K stars, 1.1K followers, 399 public PRs." width="100%" />
+  <img src="./assets/profile-hero.svg" alt="Sergio Chan — build telemetry. August 2026: 353.8K lines added across all files; 300 public repos, 2.6K stars, 1.1K followers, 399 public PRs." width="100%" />
 </p>
 <!-- HERO:END -->
 
@@ -50,7 +50,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month output</strong><br />
-      <sub>August 2026: 344.9K lines added across all files — incl. assets, docs, generated code &amp; merges.</sub>
+      <sub>August 2026: 353.8K lines added across all files — incl. assets, docs, generated code &amp; merges.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
