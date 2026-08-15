@@ -1,6 +1,6 @@
 <!-- HERO:START -->
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="Sergio Chan — build telemetry. August 2026: 353.8K lines added across all files; 300 public repos, 2.6K stars, 1.1K followers, 399 public PRs." width="100%" />
+  <img src="./assets/profile-hero.svg" alt="Sergio Chan — build telemetry. August 2026: 361.2K lines added across all files; 300 public repos, 2.6K stars, 1.1K followers, 400 public PRs." width="100%" />
 </p>
 <!-- HERO:END -->
 
@@ -35,11 +35,11 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
+- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: stop registered merchants rendering as "Unknown merchant"` (merged)
 - [`SergioChan/SergioChan`](https://github.com/SergioChan/SergioChan): Recent PR: `Synthwave neon profile hero \+ honest all\-files metric` (merged)
 - [`pallets/click`](https://github.com/pallets/click): Recent PR: `Fix error message for invalid single\-dash multichar options` (closed)
 - [`t54-labs/agent-commons`](https://github.com/t54-labs/agent-commons): Recent PR: `Sync Agent hover profiles and sprite grounding` (merged)
 - [`TheCraigHewitt/seomachine`](https://github.com/TheCraigHewitt/seomachine): Recent PR: `docs: clarify fork vs upstream clone` (merged)
-- [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: stop /dashboard proxy 500s from cold wide\-window aggregates` (merged)
 - [`boa-dev/boa`](https://github.com/boa-dev/boa): Recent PR: `cli: return non\-zero for uncaught runtime exceptions` (closed)
 <!-- CONTRIBUTING:END -->
 
@@ -50,7 +50,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month output</strong><br />
-      <sub>August 2026: 353.8K lines added across all files — incl. assets, docs, generated code &amp; merges.</sub>
+      <sub>August 2026: 361.2K lines added across all files — incl. assets, docs, generated code &amp; merges.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
@@ -58,11 +58,11 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Contribution spread</strong><br />
-      <sub>152 public repositories touched via pull requests, 399 public PRs opened in total.</sub>
+      <sub>152 public repositories touched via pull requests, 400 public PRs opened in total.</sub>
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>14 public PRs opened and 18 merged in the last 30 days.</sub>
+      <sub>15 public PRs opened and 19 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
