@@ -20,7 +20,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 
 - Building [`OpenPocket`](https://github.com/pockebot/openpocket), a phone-use agent that treats the device as the runtime.
 - Founder of [`t54-labs`](https://github.com/t54-labs), building payment and trust infrastructure for the agentic economy.
-- Previous founder of [`rct-ai`](https://github.com/rct-ai).
+- Founder of [`rct-ai`](https://github.com/rct-ai).
 - Hackathon roots with [`hACKbUSTER`](https://github.com/hACKbUSTER), where shipping under pressure became the default setting.
 
 ## Build Lab
