@@ -35,12 +35,12 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
+- [`readthedocs/readthedocs.org`](https://github.com/readthedocs/readthedocs.org): Recent PR: `Development: refresh outdated project fixtures` (merged)
 - [`SergioChan/token-meter`](https://github.com/SergioChan/token-meter): Recent PR: `deploy: publish release 0.4.0` (merged)
 - [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: stop registered merchants rendering as "Unknown merchant"` (merged)
 - [`SergioChan/SergioChan`](https://github.com/SergioChan/SergioChan): Recent PR: `Synthwave neon profile hero \+ honest all\-files metric` (merged)
 - [`pallets/click`](https://github.com/pallets/click): Recent PR: `Fix error message for invalid single\-dash multichar options` (closed)
 - [`t54-labs/agent-commons`](https://github.com/t54-labs/agent-commons): Recent PR: `Sync Agent hover profiles and sprite grounding` (merged)
-- [`TheCraigHewitt/seomachine`](https://github.com/TheCraigHewitt/seomachine): Recent PR: `docs: clarify fork vs upstream clone` (merged)
 <!-- CONTRIBUTING:END -->
 
 ## Open Source Footprint
@@ -62,7 +62,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>19 public PRs opened and 23 merged in the last 30 days.</sub>
+      <sub>19 public PRs opened and 24 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
