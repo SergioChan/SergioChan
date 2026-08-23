@@ -1,6 +1,6 @@
 <!-- HERO:START -->
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="Sergio Chan — build telemetry. August 2026: 436.4K lines added across all files; 300 public repos, 2.6K stars, 1.1K followers, 405 public PRs." width="100%" />
+  <img src="./assets/profile-hero.svg" alt="Sergio Chan — build telemetry. August 2026: 539.5K lines added across all files; 300 public repos, 2.6K stars, 1.1K followers, 405 public PRs." width="100%" />
 </p>
 <!-- HERO:END -->
 
@@ -35,12 +35,12 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
+- [`orhun/git-cliff`](https://github.com/orhun/git-cliff): Recent PR: `fix\(args\): handle \-\-workdir include paths relative to repo root` (closed)
 - [`readthedocs/readthedocs.org`](https://github.com/readthedocs/readthedocs.org): Recent PR: `Development: refresh outdated project fixtures` (merged)
 - [`SergioChan/token-meter`](https://github.com/SergioChan/token-meter): Recent PR: `deploy: publish release 0.4.0` (merged)
 - [`t54-labs/x402-xrpl`](https://github.com/t54-labs/x402-xrpl): Recent PR: `Fix: stop registered merchants rendering as "Unknown merchant"` (merged)
 - [`SergioChan/SergioChan`](https://github.com/SergioChan/SergioChan): Recent PR: `Synthwave neon profile hero \+ honest all\-files metric` (merged)
 - [`pallets/click`](https://github.com/pallets/click): Recent PR: `Fix error message for invalid single\-dash multichar options` (closed)
-- [`t54-labs/agent-commons`](https://github.com/t54-labs/agent-commons): Recent PR: `Sync Agent hover profiles and sprite grounding` (merged)
 <!-- CONTRIBUTING:END -->
 
 ## Open Source Footprint
@@ -50,7 +50,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month output</strong><br />
-      <sub>August 2026: 436.4K lines added across all files — incl. assets, docs, generated code &amp; merges.</sub>
+      <sub>August 2026: 539.5K lines added across all files — incl. assets, docs, generated code &amp; merges.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
