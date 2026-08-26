@@ -1,51 +1,51 @@
 {
-  "generatedAt": "2026-08-25T18:28:40.975Z",
+  "generatedAt": "2026-08-26T18:58:12.168Z",
   "owner": "SergioChan",
   "timeZone": "America/Los_Angeles",
   "monthLabel": "August 2026",
   "monthStart": "2026-08-01T07:00:00.000Z",
   "monthEnd": "2026-09-01T07:00:00.000Z",
-  "repoCount": 21,
-  "privateRepoCount": 13,
-  "commitCount": 864,
+  "repoCount": 22,
+  "privateRepoCount": 14,
+  "commitCount": 868,
   "nonMergeCommitCount": 788,
-  "mergeCommitCount": 76,
+  "mergeCommitCount": 80,
   "source": {
-    "additions": 373343,
-    "deletions": 42875,
-    "files": 4124,
-    "net": 330468
+    "additions": 381268,
+    "deletions": 42917,
+    "files": 4154,
+    "net": 338351
   },
   "engineering": {
-    "additions": 461783,
-    "deletions": 47855,
-    "files": 5402,
-    "net": 413928
+    "additions": 470356,
+    "deletions": 47905,
+    "files": 5449,
+    "net": 422451
   },
   "allFiles": {
-    "additions": 541534,
-    "deletions": 53862,
-    "files": 6645,
-    "net": 487672
+    "additions": 551761,
+    "deletions": 53917,
+    "files": 6701,
+    "net": 497844
   },
   "allCommits": {
     "source": {
-      "additions": 373343,
-      "deletions": 42875,
-      "files": 4124,
-      "net": 330468
+      "additions": 381268,
+      "deletions": 42917,
+      "files": 4154,
+      "net": 338351
     },
     "engineering": {
-      "additions": 461783,
-      "deletions": 47855,
-      "files": 5402,
-      "net": 413928
+      "additions": 470356,
+      "deletions": 47905,
+      "files": 5449,
+      "net": 422451
     },
     "allFiles": {
-      "additions": 541534,
-      "deletions": 53862,
-      "files": 6645,
-      "net": 487672
+      "additions": 551761,
+      "deletions": 53917,
+      "files": 6701,
+      "net": 497844
     }
   },
   "nonMerge": {
@@ -70,9 +70,9 @@
   },
   "displayMetric": {
     "scope": "all commits, all files",
-    "additions": 541534,
-    "deletions": 53862,
-    "net": 487672
+    "additions": 551761,
+    "deletions": 53917,
+    "net": 497844
   },
   "scope": "default-branch commits where author or committer matches profile owner",
   "privateRepoNamesExcluded": true
