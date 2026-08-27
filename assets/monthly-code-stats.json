@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T18:58:12.168Z",
+  "generatedAt": "2026-08-27T19:53:58.927Z",
   "owner": "SergioChan",
   "timeZone": "America/Los_Angeles",
   "monthLabel": "August 2026",
@@ -7,72 +7,72 @@
   "monthEnd": "2026-09-01T07:00:00.000Z",
   "repoCount": 22,
   "privateRepoCount": 14,
-  "commitCount": 868,
-  "nonMergeCommitCount": 788,
-  "mergeCommitCount": 80,
+  "commitCount": 944,
+  "nonMergeCommitCount": 852,
+  "mergeCommitCount": 92,
   "source": {
-    "additions": 381268,
-    "deletions": 42917,
-    "files": 4154,
-    "net": 338351
+    "additions": 564612,
+    "deletions": 49060,
+    "files": 4991,
+    "net": 515552
   },
   "engineering": {
-    "additions": 470356,
-    "deletions": 47905,
-    "files": 5449,
-    "net": 422451
+    "additions": 707084,
+    "deletions": 56893,
+    "files": 6543,
+    "net": 650191
   },
   "allFiles": {
-    "additions": 551761,
-    "deletions": 53917,
-    "files": 6701,
-    "net": 497844
+    "additions": 796127,
+    "deletions": 63471,
+    "files": 7890,
+    "net": 732656
   },
   "allCommits": {
     "source": {
-      "additions": 381268,
-      "deletions": 42917,
-      "files": 4154,
-      "net": 338351
+      "additions": 564612,
+      "deletions": 49060,
+      "files": 4991,
+      "net": 515552
     },
     "engineering": {
-      "additions": 470356,
-      "deletions": 47905,
-      "files": 5449,
-      "net": 422451
+      "additions": 707084,
+      "deletions": 56893,
+      "files": 6543,
+      "net": 650191
     },
     "allFiles": {
-      "additions": 551761,
-      "deletions": 53917,
-      "files": 6701,
-      "net": 497844
+      "additions": 796127,
+      "deletions": 63471,
+      "files": 7890,
+      "net": 732656
     }
   },
   "nonMerge": {
     "source": {
-      "additions": 260909,
-      "deletions": 36683,
-      "files": 3109,
-      "net": 224226
+      "additions": 317015,
+      "deletions": 39307,
+      "files": 3470,
+      "net": 277708
     },
     "engineering": {
-      "additions": 329307,
-      "deletions": 40658,
-      "files": 4125,
-      "net": 288649
+      "additions": 412678,
+      "deletions": 45618,
+      "files": 4632,
+      "net": 367060
     },
     "allFiles": {
-      "additions": 389670,
-      "deletions": 46019,
-      "files": 5188,
-      "net": 343651
+      "additions": 476301,
+      "deletions": 51205,
+      "files": 5747,
+      "net": 425096
     }
   },
   "displayMetric": {
     "scope": "all commits, all files",
-    "additions": 551761,
-    "deletions": 53917,
-    "net": 497844
+    "additions": 796127,
+    "deletions": 63471,
+    "net": 732656
   },
   "scope": "default-branch commits where author or committer matches profile owner",
   "privateRepoNamesExcluded": true
