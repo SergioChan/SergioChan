@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T21:35:11.979Z",
+  "generatedAt": "2026-08-29T18:28:50.257Z",
   "owner": "SergioChan",
   "timeZone": "America/Los_Angeles",
   "monthLabel": "August 2026",
@@ -7,45 +7,45 @@
   "monthEnd": "2026-09-01T07:00:00.000Z",
   "repoCount": 22,
   "privateRepoCount": 14,
-  "commitCount": 975,
+  "commitCount": 978,
   "nonMergeCommitCount": 878,
-  "mergeCommitCount": 97,
+  "mergeCommitCount": 100,
   "source": {
-    "additions": 569013,
-    "deletions": 49425,
-    "files": 5071,
-    "net": 519588
+    "additions": 571670,
+    "deletions": 49873,
+    "files": 5086,
+    "net": 521797
   },
   "engineering": {
-    "additions": 711591,
-    "deletions": 57327,
-    "files": 6643,
-    "net": 654264
+    "additions": 714625,
+    "deletions": 57790,
+    "files": 6670,
+    "net": 656835
   },
   "allFiles": {
-    "additions": 800970,
-    "deletions": 63940,
-    "files": 8005,
-    "net": 737030
+    "additions": 804409,
+    "deletions": 64454,
+    "files": 8036,
+    "net": 739955
   },
   "allCommits": {
     "source": {
-      "additions": 569013,
-      "deletions": 49425,
-      "files": 5071,
-      "net": 519588
+      "additions": 571670,
+      "deletions": 49873,
+      "files": 5086,
+      "net": 521797
     },
     "engineering": {
-      "additions": 711591,
-      "deletions": 57327,
-      "files": 6643,
-      "net": 654264
+      "additions": 714625,
+      "deletions": 57790,
+      "files": 6670,
+      "net": 656835
     },
     "allFiles": {
-      "additions": 800970,
-      "deletions": 63940,
-      "files": 8005,
-      "net": 737030
+      "additions": 804409,
+      "deletions": 64454,
+      "files": 8036,
+      "net": 739955
     }
   },
   "nonMerge": {
@@ -70,9 +70,9 @@
   },
   "displayMetric": {
     "scope": "all commits, all files",
-    "additions": 800970,
-    "deletions": 63940,
-    "net": 737030
+    "additions": 804409,
+    "deletions": 64454,
+    "net": 739955
   },
   "scope": "default-branch commits where author or committer matches profile owner",
   "privateRepoNamesExcluded": true
