@@ -1,6 +1,6 @@
 <!-- HERO:START -->
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="Sergio Chan — build telemetry. September 2026: 119.4K lines added across all files; 300 public repos, 2.6K stars, 1.1K followers, 405 public PRs." width="100%" />
+  <img src="./assets/profile-hero.svg" alt="Sergio Chan — build telemetry. September 2026: 119.4K lines added across all files; 301 public repos, 2.6K stars, 1.1K followers, 405 public PRs." width="100%" />
 </p>
 <!-- HERO:END -->
 
@@ -54,7 +54,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
-      <sub>300 public repos, 2.6K stars earned, 1.1K followers.</sub>
+      <sub>301 public repos, 2.6K stars earned, 1.1K followers.</sub>
     </td>
     <td width="210">
       <strong>Contribution spread</strong><br />
@@ -62,7 +62,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>4 public PRs opened and 5 merged in the last 30 days.</sub>
+      <sub>3 public PRs opened and 4 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
