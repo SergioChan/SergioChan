@@ -1,6 +1,6 @@
 <!-- HERO:START -->
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="Sergio Chan — build telemetry. September 2026: 119.4K lines added across all files; 301 public repos, 2.6K stars, 1.1K followers, 405 public PRs." width="100%" />
+  <img src="./assets/profile-hero.svg" alt="Sergio Chan — build telemetry. September 2026: 120.6K lines added across all files; 301 public repos, 2.6K stars, 1.1K followers, 407 public PRs." width="100%" />
 </p>
 <!-- HERO:END -->
 
@@ -35,12 +35,12 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
 ## Public PR Trail
 
 <!-- CONTRIBUTING:START -->
+- [`cline/cline`](https://github.com/cline/cline): Recent PR: `feat\(desktop\): add a local Usage tab for Codex, Claude Code and Cline` (open)
 - [`fastify/fastify-autoload`](https://github.com/fastify/fastify-autoload): Recent PR: `fix: scope autohooks setNotFoundHandler under prefixed autoload` (merged)
 - [`boa-dev/boa`](https://github.com/boa-dev/boa): Recent PR: `ci: harden checkout credential persistence and nightly permissions` (closed)
 - [`Cacti/cacti`](https://github.com/Cacti/cacti): Recent PR: `fix\(graph\_view\): use CACTI\_PATH\_URL in preview breadcrumb link` (merged)
 - [`mgechev/revive`](https://github.com/mgechev/revive): Recent PR: `fix: make typed rule type checking resilient to empty GOROOT` (open)
 - [`orhun/git-cliff`](https://github.com/orhun/git-cliff): Recent PR: `fix\(args\): handle \-\-workdir include paths relative to repo root` (closed)
-- [`readthedocs/readthedocs.org`](https://github.com/readthedocs/readthedocs.org): Recent PR: `Development: refresh outdated project fixtures` (merged)
 <!-- CONTRIBUTING:END -->
 
 ## Open Source Footprint
@@ -50,7 +50,7 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
   <tr>
     <td width="210">
       <strong>Current-month output</strong><br />
-      <sub>September 2026: 119.4K lines added across all files — incl. assets, docs, generated code &amp; merges.</sub>
+      <sub>September 2026: 120.6K lines added across all files — incl. assets, docs, generated code &amp; merges.</sub>
     </td>
     <td width="210">
       <strong>Public footprint</strong><br />
@@ -58,11 +58,11 @@ I build end-to-end systems across AI-native products, developer tooling, agentic
     </td>
     <td width="210">
       <strong>Contribution spread</strong><br />
-      <sub>154 public repositories touched via pull requests, 405 public PRs opened in total.</sub>
+      <sub>155 public repositories touched via pull requests, 407 public PRs opened in total.</sub>
     </td>
     <td width="210">
       <strong>Recent pace</strong><br />
-      <sub>3 public PRs opened and 4 merged in the last 30 days.</sub>
+      <sub>5 public PRs opened and 4 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
